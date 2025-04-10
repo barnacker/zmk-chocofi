@@ -328,7 +328,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp X               &kp W                  &kp M                  &kp G                    &kp J                       &kp HASH   &kp APOSTROPHE            &kp COMMA              &kp DOT                 &kp SLASH           &none
+&none  &lingerq Q 0        &kp W                  &kp M                  &kp G                    &kp J                       &kp HASH   &kp APOSTROPHE            &kp COMMA              &kp DOT                 &kp SLASH           &none
 &none  &roll_hold LCTRL S  &roll_hold LEFT_ALT C  &roll_hold LEFT_GUI N  &roll_hold LEFT_SHIFT T  &kp K                       &kp DQT    &roll_hold RIGHT_SHIFT A  &roll_hold LEFT_GUI E  &roll_hold RIGHT_ALT I  &roll_hold RCTRL H  &none
 &none  &kp B               &kp P                  &kp L                  &kp D                    &kp V                       &kp MINUS  &kp U                     &kp O                  &kp Y                   &kp F               &none
                                                   &mo 1                  &kp R                    &ht_reptap DEL BACKSPACE    &kp RET    &kp SPACE                 &mo 2
@@ -346,10 +346,10 @@
 
         sym {
             bindings = <
-&none  &lingerq Q 0  &kp Z     &none     &none     &none      &kp DLLR   &kp GRAVE  &kp SEMI  &kp COLON    &kp BACKSLASH  &none
-&none  &kp LBRC      &kp LPAR  &kp RPAR  &kp RBRC  &none      &kp CARET  &kp QMARK  &kp EXCL  &kp AMPS     &kp PIPE       &none
-&none  &kp LBKT      &kp LT    &kp GT    &kp RBKT  &none      &kp UNDER  &kp TILDE  &kp AT    &kp PERCENT  &kp POUND      &none
-                               &tog 5    &none     &kp DEL    &none      &none      &none
+&none  &kp Z     &kp X     &none     &none     &none      &kp DLLR   &kp GRAVE  &kp SEMI  &kp COLON    &kp BACKSLASH  &none
+&none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &none      &kp CARET  &kp QMARK  &kp EXCL  &kp AMPS     &kp PIPE       &none
+&none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &none      &kp UNDER  &kp TILDE  &kp AT    &kp PERCENT  &kp POUND      &none
+                           &tog 5    &none     &kp DEL    &none      &none      &none
             >;
         };
 
@@ -373,10 +373,10 @@
 
         gam {
             bindings = <
-&none  &kp TAB    &kp Q  &kp W  &kp E     &kp R        &kp STAR  &kp N7  &kp N8  &kp N9  &kp PLUS   &none
-&none  &kp LSHFT  &kp A  &kp S  &kp D     &kp F        &kp FSLH  &kp N4  &kp N5  &kp N6  &kp MINUS  &none
-&none  &kp LCTRL  &kp Z  &kp X  &kp C     &kp V        &kp BSPC  &kp N1  &kp N2  &kp N3  &kp DOT    &none
-                         &kp I  &kp LALT  &kp SPACE    &kp RET   &kp N0  &tog 5
+&none  &kp TAB    &kp Q  &kp W  &kp E     &kp R        &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &kp LSHFT  &kp A  &kp S  &kp D     &kp F        &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &kp LCTRL  &kp Z  &kp X  &kp C     &kp V        &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
+                         &kp I  &kp LALT  &kp SPACE    &kp RET    &kp N0  &tog 5
             >;
         };
     };
