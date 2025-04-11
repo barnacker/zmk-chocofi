@@ -52,13 +52,13 @@
 
         col {
             bindings = <&kp COLON>;
-            key-positions = <32 33>;
+            key-positions = <8 9>;
             layers = <0>;
         };
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <32 31>;
+            key-positions = <7 8>;
             layers = <0>;
         };
 
@@ -158,6 +158,11 @@
             key-positions = <19 22>;
             layers = <0>;
             timeout-ms = <100>;
+        };
+
+        web {
+            bindings = <&web>;
+            key-positions = <2 3 4>;
         };
     };
 
@@ -280,6 +285,14 @@
             #binding-cells = <0>;
             bindings = <&kp A &kp U>;
             label = "AU";
+            tap-ms = <30>;
+        };
+
+        web: web {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp E &kp B>;
+            label = "WEB";
             tap-ms = <30>;
         };
     };
