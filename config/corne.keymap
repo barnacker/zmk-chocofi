@@ -23,7 +23,7 @@
         esc {
             bindings = <&kp ESC>;
             key-positions = <13 16>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         capsw {
@@ -38,15 +38,15 @@
             layers = <0>;
         };
 
-        qu {
-            bindings = <&lingerq Q 0>;
-            key-positions = <1 2>;
+        ex {
+            bindings = <&kp X>;
+            key-positions = <1 3>;
             layers = <0>;
         };
 
         zed {
             bindings = <&kp Z>;
-            key-positions = <1 3>;
+            key-positions = <1 2>;
             layers = <0>;
         };
 
