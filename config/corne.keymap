@@ -23,7 +23,7 @@
         esc {
             bindings = <&kp ESC>;
             key-positions = <13 16>;
-            layers = <0 5>;
+            layers = <0>;
         };
 
         capsw {
@@ -163,6 +163,12 @@
         web {
             bindings = <&web>;
             key-positions = <2 3 4>;
+        };
+
+        g_esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
+            layers = <5>;
         };
     };
 
