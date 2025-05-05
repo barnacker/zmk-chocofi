@@ -356,10 +356,10 @@
 
         num {
             bindings = <
-&none  &none           &kp HOME      &kp UP        &kp END       &kp LC(F5)    &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp PLUS   &none
-&none  &kp LCTRL       &kp LEFT      &kp DOWN      &kp RIGHT     &none         &kp SLASH     &kp N4  &kp N5  &kp N6  &kp MINUS  &none
-&none  &kp LEFT_SHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &kp PERIOD    &kp N1  &kp N2  &kp N3  &kp EQUAL  &none
-                                     &none         &none         &none         &none         &kp N0  &mo 3
+&none  &none           &kp HOME  &kp UP    &kp END    &kp LC(F5)    &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp PLUS   &none
+&none  &kp LCTRL       &kp LEFT  &kp DOWN  &kp RIGHT  &none         &kp SLASH     &kp N4  &kp N5  &kp N6  &kp MINUS  &none
+&none  &kp LEFT_SHIFT  &none     &none     &none      &none         &kp PERIOD    &kp N1  &kp N2  &kp N3  &kp EQUAL  &none
+                                 &none     &none      &none         &none         &kp N0  &mo 3
             >;
         };
 
@@ -374,10 +374,10 @@
 
         fnk {
             bindings = <
-&none  &none      &none     &none     &none      &none    &none  &kp F1  &kp F2   &kp F3   &kp F4   &none
-&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none    &none  &kp F5  &kp F6   &kp F7   &kp F8   &none
-&none  &none      &none     &none     &none      &none    &none  &kp F9  &kp F10  &kp F11  &kp F12  &none
-                            &none     &none      &none    &none  &none   &none
+&none  &none      &none         &none         &none         &none         &none  &kp F1  &kp F2   &kp F3   &kp F4   &none
+&none  &kp LCTRL  &kp LALT      &kp LGUI      &kp LSHFT     &none         &none  &kp F5  &kp F6   &kp F7   &kp F8   &none
+&none  &none      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_CLR    &none  &kp F9  &kp F10  &kp F11  &kp F12  &none
+                                &none         &none         &none         &none  &none   &none
             >;
         };
 
