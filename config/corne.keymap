@@ -163,6 +163,7 @@
         web {
             bindings = <&web>;
             key-positions = <2 3 4>;
+            layers = <0>;
         };
 
         g_esc {
