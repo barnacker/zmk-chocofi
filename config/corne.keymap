@@ -348,7 +348,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &lingerq Q 0        &kp W                  &kp M                  &kp G                    &kp J                       &kp HASH   &kp APOSTROPHE            &kp COMMA              &kp DOT                 &kp SLASH           &none
+&none  &lingerq Q 0        &kp W                  &kp M                  &kp G                    &kp J                       &kp HASH   &kp COMMA                 &kp DOT                &kp SQT                 &kp SLASH           &none
 &none  &roll_hold LCTRL S  &roll_hold LEFT_ALT C  &roll_hold LEFT_GUI N  &roll_hold LEFT_SHIFT T  &kp K                       &kp DQT    &roll_hold RIGHT_SHIFT A  &roll_hold LEFT_GUI E  &roll_hold RIGHT_ALT I  &roll_hold RCTRL H  &none
 &none  &kp B               &kp P                  &kp L                  &kp D                    &kp V                       &kp MINUS  &kp U                     &kp O                  &kp Y                   &kp F               &none
                                                   &mo 1                  &kp R                    &ht_reptap DEL BACKSPACE    &kp RET    &kp SPACE                 &mo 2
