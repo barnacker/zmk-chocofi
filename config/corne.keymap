@@ -32,141 +32,13 @@
             layers = <0>;
         };
 
-        i3w_layer {
-            bindings = <&mo 4>;
-            key-positions = <36 41>;
-            layers = <0>;
-        };
-
-        ex {
-            bindings = <&kp X>;
-            key-positions = <1 3>;
-            layers = <0>;
-        };
-
-        zed {
-            bindings = <&kp Z>;
-            key-positions = <1 2>;
-            layers = <0>;
-        };
-
-        col {
-            bindings = <&kp COLON>;
-            key-positions = <8 9>;
-            layers = <0>;
-        };
-
-        semi {
-            bindings = <&kp SEMI>;
-            key-positions = <7 8>;
-            layers = <0>;
-        };
-
-        sch {
-            bindings = <&sch>;
-            key-positions = <13 14 15>;
-            layers = <0>;
-        };
-
-        tch {
-            bindings = <&tch>;
-            key-positions = <14 16 15>;
-            layers = <0>;
-        };
-
-        wh {
-            bindings = <&wh>;
-            key-positions = <2 3>;
-            layers = <0>;
-        };
-
-        ch {
-            bindings = <&ch>;
-            key-positions = <15 14>;
-            layers = <0>;
-            timeout-ms = <10>;
-        };
-
-        th {
-            bindings = <&th>;
-            key-positions = <16 15>;
-            layers = <0>;
-        };
-
-        gh {
-            bindings = <&gh>;
-            key-positions = <4 3>;
-            layers = <0>;
-        };
-
-        ph {
-            bindings = <&ph>;
-            key-positions = <26 27>;
-            layers = <0>;
-        };
-
-        if {
-            bindings = <&if>;
-            key-positions = <21 22>;
-            layers = <0>;
-        };
-
-        els {
-            bindings = <&els>;
-            key-positions = <20 21>;
-            layers = <0>;
-        };
-
-        thn {
-            bindings = <&thn>;
-            key-positions = <17 16>;
-            layers = <0>;
-        };
-
-        fi {
-            bindings = <&fi>;
-            key-positions = <33 34>;
-            layers = <0>;
-        };
-
         gam_win {
             bindings = <&kp LGUI>;
             key-positions = <4 5>;
             layers = <5>;
         };
 
-        sshh {
-            bindings = <&sshh>;
-            key-positions = <13 15>;
-            layers = <0>;
-        };
-
-        swit {
-            bindings = <&swit>;
-            key-positions = <13 2>;
-            layers = <0>;
-        };
-
         gam_esc {
-            bindings = <&kp ESC>;
-            key-positions = <1 2>;
-            layers = <5>;
-        };
-
-        au {
-            bindings = <&au>;
-            key-positions = <19 22>;
-            layers = <0>;
-            timeout-ms = <100>;
-        };
-
-        web {
-            bindings = <&web>;
-            key-positions = <2 3 4>;
-            layers = <0>;
-        };
-
-        g_esc {
             bindings = <&kp ESC>;
             key-positions = <1 2>;
             layers = <5>;
@@ -348,10 +220,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &lingerq Q 0        &kp W                  &kp M                  &kp G                    &kp J                       &kp HASH   &kp COMMA                 &kp DOT                &kp SQT                 &kp SLASH           &none
-&none  &roll_hold LCTRL S  &roll_hold LEFT_ALT C  &roll_hold LEFT_GUI N  &roll_hold LEFT_SHIFT T  &kp K                       &kp DQT    &roll_hold RIGHT_SHIFT A  &roll_hold LEFT_GUI E  &roll_hold RIGHT_ALT I  &roll_hold RCTRL H  &none
-&none  &kp B               &kp P                  &kp L                  &kp D                    &kp V                       &kp MINUS  &kp U                     &kp O                  &kp Y                   &kp F               &none
-                                                  &mo 1                  &kp R                    &ht_reptap DEL BACKSPACE    &kp RET    &kp SPACE                 &mo 2
+&none  &kp V               &kp M              &kp L                  &kp C                    &kp P                       &kp X       &kp F                     &kp O                  &kp U                   &kp J               &none
+&none  &roll_hold LCTRL S  &roll_hold LALT T  &roll_hold LEFT_GUI R  &roll_hold LEFT_SHIFT D  &kp Y                       &kp PERIOD  &roll_hold RIGHT_SHIFT N  &roll_hold LEFT_GUI A  &roll_hold RIGHT_ALT E  &roll_hold RCTRL I  &none
+&none  &kp Z               &kp K              &lingerq Q 0           &kp G                    &kp W                       &kp B       &kp H                     &kp SQT                &kp SEMI                &kp COMMA           &none
+                                              &mo 1                  &mo 4                    &ht_reptap DEL BACKSPACE    &kp RET     &kp SPACE                 &mo 2
             >;
         };
 
@@ -366,9 +238,9 @@
 
         sym {
             bindings = <
-&none  &kp Z     &kp X     &none     &none     &none      &kp DLLR   &kp GRAVE  &kp SEMI  &kp COLON    &kp BACKSLASH  &none
-&none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &none      &kp CARET  &kp QMARK  &kp EXCL  &kp AMPS     &kp PIPE       &none
-&none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &none      &kp UNDER  &kp TILDE  &kp AT    &kp PERCENT  &kp POUND      &none
+&none  &kp Z     &kp X     &none     &none     &none      &kp DLLR   &kp GRAVE  &kp SEMI      &kp COLON    &kp BACKSLASH  &none
+&none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &none      &kp CARET  &kp EXCL   &kp QUESTION  &kp AMPS     &kp PIPE       &none
+&none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &none      &kp UNDER  &kp TILDE  &kp AT        &kp PERCENT  &kp POUND      &none
                            &tog 5    &none     &kp DEL    &none      &none      &none
             >;
         };
