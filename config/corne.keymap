@@ -182,6 +182,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LINGERQ";
             bindings = <&qu>, <&kp>;
+
             #binding-cells = <1>;
             tapping-term-ms = <100>;
             flavor = "tap-preferred";
@@ -191,6 +192,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "ROLL_HOLD";
             bindings = <&kp>, <&kp>;
+
             #binding-cells = <2>;
             tapping-term-ms = <210>;
             flavor = "tap-preferred";
@@ -200,6 +202,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HT_REPTAP";
             bindings = <&kp>, <&kp>;
+
             #binding-cells = <2>;
             tapping-term-ms = <260>;
             flavor = "tap-preferred";
@@ -212,55 +215,55 @@
 
         base {
             bindings = <
-                &none  &lingerq Q        &kp W               &kp F                  &kp P                  &kp B                  &kp J    &kp SEMI                &kp SLASH               &kp X                       &kp Z               &none
-                &none  &roll_hold LSHIFT A  &roll_hold LCTRL S  &roll_hold LEFT_ALT T  &roll_hold LEFT_WIN D  &kp H                  &kp E    &roll_hold RIGHT_WIN R  &roll_hold RIGHT_ALT I  &roll_hold RIGHT_CTRL O  &roll_hold RSHFT G  &none
-                &none  &kp L                &kp U               &kp C                  &kp V                  &kp N                  &kp M    &kp Y                   &kp PERIOD              &kp COMMA                   &kp K               &none
-                                                    &mo 1                  &mo 4                  &ht_reptap DEL BSPC    &kp RET  &kp SPACE               &mo 2
+&none  &lingerq Q Q         &kp W               &kp F                  &kp P                  &kp B                  &kp J    &kp SEMI                &kp SLASH               &kp X               &kp Z               &none
+&none  &roll_hold LSHIFT A  &roll_hold LCTRL S  &roll_hold LEFT_ALT T  &roll_hold LEFT_WIN D  &kp H                  &kp E    &roll_hold RIGHT_WIN R  &roll_hold RIGHT_ALT I  &roll_hold RCTRL O  &roll_hold RSHFT G  &none
+&none  &kp L                &kp U               &kp C                  &kp V                  &kp N                  &kp M    &kp Y                   &kp PERIOD              &kp COMMA           &kp K               &none
+                                                &mo 1                  &mo 4                  &ht_reptap DEL BSPC    &kp RET  &kp SPACE               &mo 2
             >;
         };
 
         num {
             bindings = <
-                &none  &none           &kp HOME  &kp UP    &kp END    &kp F5       &kp ASTR     &kp N7  &kp N8  &kp N9  &kp PLUS   &none
-                &none  &kp LSHFT       &kp LEFT  &kp DOWN  &kp RIGHT  &none         &kp SLASH    &kp N4  &kp N5  &kp N6  &kp MINUS  &none
-                &none  &kp LCTRL       &none     &none     &none      &none         &kp PERIOD   &kp N1  &kp N2  &kp N3  &kp EQUAL  &none
-                                            &none     &none      &none         &none         &kp N0  &mo 3
+&none  &none      &kp HOME  &kp UP    &kp END    &kp F5    &kp ASTR    &kp N7  &kp N8  &kp N9  &kp PLUS   &none
+&none  &kp LSHFT  &kp LEFT  &kp DOWN  &kp RIGHT  &none     &kp SLASH   &kp N4  &kp N5  &kp N6  &kp MINUS  &none
+&none  &kp LCTRL  &none     &none     &none      &none     &kp PERIOD  &kp N1  &kp N2  &kp N3  &kp EQUAL  &none
+                            &none     &none      &none     &none       &kp N0  &mo 3
             >;
         };
 
         sym {
             bindings = <
-                &none  &none     &none     &none     &none     &none      &kp DLR    &kp GRAVE  &kp SQUO   &kp DQUO   &kp PSCRN  &none
-                &none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &none      &kp CIRC   &kp QUES   &kp EXCL   &kp AMPR    &kp PIPE   &none
-                &none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &none      &kp UND    &kp TILDE  &kp AT      &kp BSLS    &kp HASH   &none
-                               &to 5     &none     &kp DEL    &none      &none      &none
+&none  &none     &none     &none     &none     &none      &kp DLR   &kp GRAVE  &kp SQUO  &kp DQUO  &kp PSCRN  &none
+&none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &none      &kp CIRC  &kp QUES   &kp EXCL  &kp AMPR  &kp PIPE   &none
+&none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &none      &kp UND   &kp TILDE  &kp AT    &kp BSLS  &kp HASH   &none
+                           &to 5     &none     &kp DEL    &none     &none      &none
             >;
         };
 
         fnk {
             bindings = <
-                &none  &none           &none         &none         &none         &none         &none  &kp F1  &kp F2   &kp F3   &kp F4   &none
-                &none  &kp LSHFT       &kp LCTRL     &kp LALT      &kp LEFT_WIN  &none         &none  &kp F5  &kp F6   &kp F7   &kp F8   &none
-                &none  &none           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &none  &kp F9  &kp F10  &kp F11  &kp F12  &none
-                                            &none         &none         &none         &none  &none   &none
+&none  &none      &none         &none         &none         &none         &none  &kp F1  &kp F2   &kp F3   &kp F4   &none
+&none  &kp LSHFT  &kp LCTRL     &kp LALT      &kp LEFT_WIN  &none         &none  &kp F5  &kp F6   &kp F7   &kp F8   &none
+&none  &none      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &none  &kp F9  &kp F10  &kp F11  &kp F12  &none
+                                &none         &none         &none         &none  &none   &none
             >;
         };
 
         i3w {
             bindings = <
-                &none  &kp LG(Q)  &none         &kp LG(UP)    &none          &none    &none  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &none      &none
-                &none  &kp LSHFT  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &none    &none  &kp LG(N4)  &kp LG(N5)  &kp LG(N6)  &kp RSHFT  &none
-                &none  &kp LCTRL  &none         &kp LG(S)     &none          &none    &none  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp RCTRL  &none
-                                            &none         &none          &none    &none  &kp LG(N0)  &none
+&none  &kp LG(Q)  &none         &kp LG(UP)    &none          &none    &none  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &none      &none
+&none  &kp LSHFT  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &none    &none  &kp LG(N4)  &kp LG(N5)  &kp LG(N6)  &kp RSHFT  &none
+&none  &kp LCTRL  &none         &kp LG(S)     &none          &none    &none  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp RCTRL  &none
+                                &none         &none          &none    &none  &kp LG(N0)  &none
             >;
         };
 
         gam {
             bindings = <
-                &none  &kp TAB    &kp Q  &kp W  &kp E     &kp R        &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
-                &none  &kp LSHFT  &kp A  &kp S  &kp D     &kp F        &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
-                &none  &kp LCTRL  &kp Z  &kp X  &kp C     &kp V        &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                            &kp I  &kp LALT  &kp SPACE    &kp RET    &kp N0  &to 5
+&none  &kp TAB    &kp Q  &kp W  &kp E     &kp R        &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &kp LSHFT  &kp A  &kp S  &kp D     &kp F        &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &kp LCTRL  &kp Z  &kp X  &kp C     &kp V        &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
+                         &kp I  &kp LALT  &kp SPACE    &kp RET    &kp N0  &to 5
             >;
         };
     };
