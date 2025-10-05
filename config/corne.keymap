@@ -220,10 +220,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &lingerq Q 0         &kp W               &kp F                  &kp P                  &kp B                       &kp J    &kp SEMI                &kp SLASH               &kp X                       &kp Z               &none
-&none  &roll_hold LSHIFT A  &roll_hold LCTRL S  &roll_hold LEFT_ALT T  &roll_hold LEFT_WIN D  &kp H                       &kp E    &roll_hold RIGHT_WIN R  &roll_hold RIGHT_ALT I  &roll_hold RIGHT_CONTROL O  &roll_hold RSHFT G  &none
-&none  &kp L                &kp U               &kp C                  &kp V                  &kp N                       &kp M    &kp Y                   &kp PERIOD              &kp COMMA                   &kp K               &none
-                                                &mo 1                  &mo 4                  &ht_reptap DEL BACKSPACE    &kp RET  &kp SPACE               &mo 2
+&none  &lingerq Q 0         &kp W               &kp F                  &kp P                  &kp B                  &kp J    &kp SEMI                &kp SLASH               &kp X                       &kp Z               &none
+&none  &roll_hold LSHIFT A  &roll_hold LCTRL S  &roll_hold LEFT_ALT T  &roll_hold LEFT_WIN D  &kp H                  &kp E    &roll_hold RIGHT_WIN R  &roll_hold RIGHT_ALT I  &roll_hold RIGHT_CONTROL O  &roll_hold RSHFT G  &none
+&none  &kp L                &kp U               &kp C                  &kp V                  &kp N                  &kp M    &kp Y                   &kp PERIOD              &kp COMMA                   &kp K               &none
+                                                &mo 1                  &mo 4                  &ht_reptap DEL BSPC    &kp RET  &kp SPACE               &mo 2
             >;
         };
 
