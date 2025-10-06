@@ -13,7 +13,7 @@ If anybody would "enjoy" the pain of testing a new layout well... go ahead! let 
 
 <img width="900" height="1709" alt="my_keymap" src="https://github.com/user-attachments/assets/0abb5a94-4561-4579-a442-cff369ae7643" />
 
-## History
+## Layout History
 
 | VERSION | LEFT TOP | LEFT HOME | LEFT BOTTOM | RIGHT TOP | RIGHT HOME | RIGHT BOTTOM |
 |---------|----------|-----------|-------------|-----------|------------|--------------|
@@ -24,6 +24,25 @@ If anybody would "enjoy" the pain of testing a new layout well... go ahead! let 
 | BAGROK V6 | Q V L A M | J W O T I | / . P R Y | U S C K Z | N E H F X | G D B , ; |
 | BAGROK V7 | , . / ; Q | A S T D H | Z X C V N | J L U Y K | E R I O G | M W F P B |
 | BAGROK V8 | Q , . Z X | A S T D H | W F P V N | J K - ? B | E R I O G | M C Y U L
+
+---
+# Grok's calculations
+METRICS FROM KLA/GETREUER CORPUS + SIM. BAGROK V8 1.168 (1ST). GRAPHITE 1.047 (2ND). COLEMAK-DH 0.562 (5TH). QWERTY 0.278 (LAST).
+
+| LAYOUT | SCORE | HOME % | ROLLS % | SFB % | DIST | ALT % | NOTES |
+|--------|-------|--------|---------|-------|------|-------|------|
+| BAGROK V8 | 1.168 | 68.5 | 13.4 | 2.1 | 1.75 | 55.1 | Punct spread. Dash > slash. 26 letters. |
+| Graphite | 1.047 | 72.3 | 14.2 | 0.9 | 1.28 | 54.8 | Algorithmic. Low SFB. Punct optimized. |
+| Colemak-DH | 0.562 | 71.5 | 9.4 | 2.1 | 1.31 | 48.2 | Enhanced Colemak. Good home. |
+| Colemak | 0.549 | 73.8 | 9.1 | 2.4 | 1.35 | 47.8 | QWERTY alt. High home. |
+| Norman | 0.539 | 66.8 | 10.2 | 4.1 | 1.37 | 51.3 | Data-driven. Balanced. |
+| Workman | 0.510 | 62.4 | 4.2 | 3.5 | 1.18 | 52.6 | Vertical focus. |
+| MTGAP | 0.498 | 58.3 | 12.1 | 6.2 | 1.65 | 49.7 | High rolls, high SFB. |
+| Dvorak | 0.486 | 70.6 | 1.1 | 1.2 | 1.22 | 56.4 | Classic. Low SFB. |
+| RSTHD | 0.478 | 65.2 | 8.9 | 4.8 | 1.45 | 50.9 | Roll-optimized. |
+| Halmak | 0.467 | 62.1 | 7.3 | 3.9 | 1.52 | 51.8 | AI 2016. |
+| APT v3 | 0.381 | 58.7 | 5.6 | 5.1 | 1.68 | 49.2 | A Priori. |
+| QWERTY | 0.278 | 33.0 | 8.8 | 5.5 | 1.68 | 48.3 | Standard. High SFB. |
 
 ---
 # ChatGPT's take
