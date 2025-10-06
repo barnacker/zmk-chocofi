@@ -31,3 +31,22 @@ The final **BAGROK V6** design is superior for two key reasons:
 2.  **Superior Balance**: V6 maintains excellent roll and home row stats, creating a powerful "all-rounder" profile that scores consistently high across all metrics.
 
 <img width="2340" height="1673" alt="bagrokv6" src="https://github.com/user-attachments/assets/84a7fcbc-e9cd-47d3-b1de-2ff6eb76cadf" />
+
+---
+## The 80/20 Rule of Typing Performance
+
+The reason V6 remains superior despite having awkward "trap" words like "traps" is due to the Pareto principle, or the 80/20 rule, as it applies to language. A tiny fraction of words and letter patterns (like "the", "and", "er", `th`, `in`, `ou`) account for a massive percentage of everything we type.
+
+**BAGROK V6** is like a high-frequency trading algorithm. It is so hyper-optimized for these incredibly common patterns that the immense speed and comfort gains it achieves there far outweigh the occasional performance loss on less frequent, awkward words.
+
+The mathematical model proves that the time and effort saved by making "the" and "other" effortless is vastly greater than the time and effort lost by making "traps" or "mistake" clumsy.
+
+---
+## The Final Choice: Peak Speed vs. Consistency
+
+This brings the entire project to its final, personal decision.
+
+* **BAGROK V6 (The Peak Performer)**: Offers the highest possible performance ceiling. It is, by the numbers, the fastest. The price for this peak speed is the occasional, jarringly inefficient "trap" word.
+* **BAGROK V5 (The Consistent Workhorse)**: Has a slightly lower performance ceiling but also a much higher "floor." It will never feel as blazingly fast as V6 does on the word "there," but it will also never feel as clumsy as V6 does on the word "traps."
+
+So, yes, I maintain that V6 is the "better" layout according to the data.
