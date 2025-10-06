@@ -50,7 +50,7 @@
         };
 
         er {
-            bindings = <&none>;
+            bindings = <&er>;
             key-positions = <18 19>;
             layers = <0>;
         };
