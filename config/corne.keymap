@@ -176,7 +176,7 @@
         baz {
             bindings = <
 &none  &lingerq Q 0  &kp V        &kp L       &kp A       &kp M                 &kp U    &kp S       &kp C       &kp K        &kp Z        &none
-&none  &hm LSHFT J   &hm LCTRL O  &hm LALT W  &hm LGUI T  &kp I                 &kp N    &hm RGUI E  &hm RALT H  &hm RCTRL F  &hm RSHFT X  &none
+&none  &hm LSHFT J   &hm LCTRL W  &hm LALT O  &hm LGUI T  &kp I                 &kp N    &hm RGUI E  &hm RALT H  &hm RCTRL F  &hm RSHFT X  &none
 &none  &kp SLASH     &kp DOT      &kp P       &kp R       &kp Y                 &kp G    &kp D       &kp B       &kp COMMA    &kp SEMI     &none
                                   &mo 1       &mo 3       &bspc_del DEL BSPC    &kp RET  &kp SPACE   &mo 2
             >;
