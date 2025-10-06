@@ -112,35 +112,21 @@
 
         else {
             bindings = <&else>;
-            key-positions = <19 3>;
+            key-positions = <34 18>;
             layers = <0>;
             timeout-ms = <40>;
         };
 
         and {
             bindings = <&and>;
-            key-positions = <4 5>;
+            key-positions = <13 29>;
             layers = <0>;
             timeout-ms = <40>;
         };
 
         ing {
             bindings = <&ing>;
-            key-positions = <17 18>;
-            layers = <0>;
-            timeout-ms = <40>;
-        };
-
-        im {
-            bindings = <&im>;
-            key-positions = <17 16>;
-            layers = <0>;
-            timeout-ms = <40>;
-        };
-
-        ta {
-            bindings = <&ta>;
-            key-positions = <16 14>;
+            key-positions = <20 29>;
             layers = <0>;
             timeout-ms = <40>;
         };
@@ -191,20 +177,6 @@
             #binding-cells = <0>;
             bindings = <&kp I &kp N &kp G>;
             label = "ING";
-        };
-
-        im: im {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp I &kp M>;
-            label = "IM";
-        };
-
-        ta: ta {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp A>;
-            label = "TA";
         };
     };
 
