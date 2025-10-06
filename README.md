@@ -5,8 +5,7 @@
 I used most the popular AIs to help me generate and validate this, made them fight and argue... added my own arguments because the AIs got a little lost from time to time and were hallicinating things other times.
 My hypothesis is that by using multiple LLMs I could lower the margin of errors... hopefully :)
 
-So now I'm gonna dailydrive this baby and we shall see if it's any good (might as well be a figurative "bag of rocks" to drag along my desk :P)
-*(BAGROK V4 has been the most comfortable, trying V6 for now)*
+So now I'm gonna dailydrive BAGROCK (V8) and we shall see if it's any good (might as well be a figurative "bag of rocks" to drag along my desk :P)
 
 If anybody would "enjoy" the pain of testing a new layout well... go ahead! let me know if it worked for you or of it's a bag of *** ... something else hahaha
 
