@@ -66,6 +66,11 @@
             key-positions = <18 24>;
             layers = <0>;
         };
+
+        and {
+            bindings = <&and>;
+            key-positions = <13 16>;
+        };
     };
 
     macros {
@@ -106,6 +111,14 @@
             #binding-cells = <0>;
             bindings = <&kp E &kp L &kp S &kp E &kp SPACE>;
             label = "ELSE";
+        };
+
+        and: and {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp N &kp D &kp SPACE>;
+            label = "AND";
+            tap-ms = <30>;
         };
     };
 
