@@ -6,6 +6,7 @@ I used most the popular AIs to help me generate and validate this, made them fig
 My hypothesis is that by using multiple LLMs I could lower the margin of errors... hopefully :)
 
 So now I'm gonna dailydrive this baby and we shall see if it's any good (might as well be a figurative "bag of rocks" to drag along my desk :P)
+*(BAGROK V4 has been the most comfortable, trying V6 for now)*
 
 If anybody would "enjoy" the pain of testing a new layout well... go ahead! let me know if it worked for you or of it's a bag of *** ... something else hahaha
 
@@ -50,3 +51,14 @@ This brings the entire project to its final, personal decision.
 * **BAGROK V5 (The Consistent Workhorse)**: Has a slightly lower performance ceiling but also a much higher "floor." It will never feel as blazingly fast as V6 does on the word "there," but it will also never feel as clumsy as V6 does on the word "traps."
 
 So, yes, I maintain that V6 is the "better" layout according to the data.
+
+---
+## History
+
+| VERSION | LEFT TOP | LEFT HOME | LEFT BOTTOM | RIGHT TOP | RIGHT HOME | RIGHT BOTTOM |
+|---------|----------|-----------|-------------|-----------|------------|--------------|
+| GROKFI V1 | Q W F P B | A S T D H | Z X C V N | J L U Y K | E R I O G | M , . / ; |
+| BAGROK V3 | Q W F P B | A S T D H | L U C V N | J ; / X Z | E R I O G | M Y . , K |
+| BAGROK V4 | Q W F P B | A S T D H | M U C V N | J ; / X Z | E R I O G | L Y . , K |
+| BAGROK V5 | J W F P B | A S T D H | M C V U N | Q ; / X Z | E R I O G | L Y , . K |
+| BAGROK V6 | Q V L A M | J W O T I | / . P R Y | U S C K Z | N E H F X | G D B , ;
