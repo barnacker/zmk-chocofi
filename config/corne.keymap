@@ -242,7 +242,7 @@
  *                 │  NUM  │  i3W  │Bsp/Del│   │  RET  │ SPACE │  SYM  │
  *                 ╰───────┴───────┴───────╯   ╰───────┴───────┴───────╯
  * LAYER STRUCTURE:
- * Layer 0: BASE - BAGROK V5 alphas + mods
+ * Layer 0: BAZ - BAGROK V5 alphas + mods
  * Layer 1: NUM - Numbers, nav, F1-F5
  * Layer 2: SYM - Symbols, brackets, operators
  * Layer 3: i3W - i3wm shortcuts (LGUI mods)
