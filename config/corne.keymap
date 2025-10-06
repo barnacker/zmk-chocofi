@@ -42,24 +42,28 @@
             bindings = <&kp TAB>;
             key-positions = <13 14>;
             layers = <0>;
+            timeout-ms = <40>;
         };
 
         esc {
             bindings = <&kp ESC>;
             key-positions = <13 16>;
             layers = <0>;
+            timeout-ms = <40>;
         };
 
         capsw {
             bindings = <&caps_word>;
             key-positions = <13 22>;
             layers = <0>;
+            timeout-ms = <40>;
         };
 
         the {
             bindings = <&the>;
             key-positions = <16 15>;
             layers = <0>;
+            timeout-ms = <40>;
         };
 
         then {
@@ -72,17 +76,35 @@
             bindings = <&else>;
             key-positions = <19 3>;
             layers = <0>;
+            timeout-ms = <40>;
         };
 
         and {
             bindings = <&and>;
             key-positions = <4 5>;
             layers = <0>;
+            timeout-ms = <40>;
         };
 
         ing {
             bindings = <&ing>;
             key-positions = <17 18>;
+            layers = <0>;
+            timeout-ms = <40>;
+        };
+
+        im {
+            bindings = <&im>;
+            key-positions = <17 16>;
+            layers = <0>;
+            timeout-ms = <40>;
+        };
+
+        ta {
+            bindings = <&ta>;
+            key-positions = <16 14>;
+            layers = <0>;
+            timeout-ms = <40>;
         };
     };
 
@@ -131,6 +153,20 @@
             #binding-cells = <0>;
             bindings = <&kp I &kp N &kp G>;
             label = "ING";
+        };
+
+        im: im {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp M>;
+            label = "IM";
+        };
+
+        ta: ta {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp A>;
+            label = "TA";
         };
     };
 
