@@ -63,13 +63,13 @@
 
         else {
             bindings = <&else>;
-            key-positions = <18 24>;
+            key-positions = <18 25>;
             layers = <0>;
         };
 
         and {
             bindings = <&and>;
-            key-positions = <13 16>;
+            key-positions = <13 29>;
             layers = <0>;
         };
     };
