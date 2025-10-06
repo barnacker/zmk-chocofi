@@ -9,7 +9,7 @@ So now I'm gonna dailydrive this baby and we shall see if it's any good (might a
 
 If anybody would "enjoy" the pain of testing a new layout well... go ahead! let me know if it worked for you or of it's a bag of *** ... something else hahaha
 
-<img width="900" height="1709" alt="my_keymap" src="https://github.com/user-attachments/assets/6b1352c1-68d5-4b43-ac41-9e4752644058" />
+<img width="900" height="1709" alt="my_keymap" src="https://github.com/user-attachments/assets/522dde82-0410-49e7-8b22-6502efe85fc3" />
 
 ## Gemini's Final Validation Scoreboard
 *(Calculated using the analysis logic and sample texts from Claude AI's React component)*
