@@ -74,7 +74,7 @@
         lingerq: lingerq {
             compatible = "zmk,behavior-hold-tap";
             label = "LINGERQ";
-            bindings = <&qu>, <&kp>;
+            bindings = <&kp>, <&qu>;
 
             #binding-cells = <2>;
             tapping-term-ms = <100>;
