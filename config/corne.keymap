@@ -22,7 +22,6 @@
  *  No further upgrade required — V6 is the fastest layout ever validated on corpus metrics and real typing tests.
  */
 
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -181,15 +180,15 @@
         compatible = "zmk,keymap";
 
         // BASE LAYER – BAGROK V6
+
         baz {
             bindings = <
-&none  &lingerq Q 0    &kp V       &kp L       &kp A       &kp M              &kp U       &kp S       &kp C       &kp K       &kp Z       &none
-&none  &hm LSHFT J  &hm LCTRL O  &hm LALT W  &hm LGUI T  &kp I           &kp N       &hm RGUI E  &hm RALT H  &hm RCTRL F  &hm RSHFT X  &none
-&none  &kp SLASH     &kp DOT     &kp P       &kp R       &kp Y            &kp G       &kp D       &kp B       &kp QUOTE    &kp SEMI     &none
-                                  &mo 1       &mo 3       &bspc_del DEL BSPC    &kp RET   &kp SPACE   &mo 2
+&none  &lingerq Q 0  &kp V        &kp L       &kp A       &kp M                 &kp U    &kp S       &kp C       &kp K        &kp Z        &none
+&none  &hm LSHFT J   &hm LCTRL O  &hm LALT W  &hm LGUI T  &kp I                 &kp N    &hm RGUI E  &hm RALT H  &hm RCTRL F  &hm RSHFT X  &none
+&none  &kp SLASH     &kp DOT      &kp P       &kp R       &kp Y                 &kp G    &kp D       &kp B       &kp COMMA    &kp SEMI     &none
+                                  &mo 1       &mo 3       &bspc_del DEL BSPC    &kp RET  &kp SPACE   &mo 2
             >;
         };
-
 
         // LAYER 1 - NUMBERS & NAVIGATION
 
@@ -295,4 +294,3 @@
  * Name: BA(rnacker) + GROK → AI + Human  =  Typing Future.  
  * ═══════════════════════════════════════════════════════════════════════════
  */
-
