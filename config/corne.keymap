@@ -42,6 +42,30 @@
             key-positions = <13 22>;
             layers = <0>;
         };
+
+        the {
+            bindings = <&the>;
+            key-positions = <16 15>;
+            layers = <0>;
+        };
+
+        er {
+            bindings = <&none>;
+            key-positions = <18 19>;
+            layers = <0>;
+        };
+
+        then {
+            bindings = <&then>;
+            key-positions = <16 14 15>;
+            layers = <0>;
+        };
+
+        else {
+            bindings = <&else>;
+            key-positions = <18 24>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -51,6 +75,37 @@
             bindings = <&kp Q &kp U>;
             label = "QU";
             tap-ms = <30>;
+        };
+
+        the: the {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp H &kp E &kp SPACE>;
+            label = "THE";
+            tap-ms = <30>;
+        };
+
+        er: er {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp R>;
+            label = "ER";
+            tap-ms = <30>;
+        };
+
+        then: then {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp H &kp E &kp N &kp SPACE>;
+            label = "THEN";
+            tap-ms = <30>;
+        };
+
+        else: else {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp L &kp S &kp E &kp SPACE>;
+            label = "ELSE";
         };
     };
 
@@ -101,10 +156,10 @@
 
         base {
             bindings = <
-&none  &lingerq Q Q  &kp W        &kp F       &kp P       &kp B                 &kp J    &kp SEMI    &kp SLASH   &kp X        &kp Z        &none
-&none  &hm LSHFT A   &hm LCTRL S  &hm LALT T  &hm LGUI D  &kp H                 &kp E    &hm RGUI R  &hm RALT I  &hm RCTRL O  &hm RSHFT G  &none
-&none  &kp L         &kp U        &kp C       &kp V       &kp N                 &kp M    &kp Y       &kp COMMA   &kp DOT      &kp K        &none
-                                  &mo 1       &mo 3       &bspc_del DEL BSPC    &kp RET  &kp SPACE   &mo 2
+&none  &kp J        &kp W        &kp F       &kp P       &kp B                 &lingerq Q 0  &kp SEMI    &kp SLASH   &kp X        &kp Z        &none
+&none  &hm LSHFT A  &hm LCTRL S  &hm LALT T  &hm LGUI D  &kp H                 &kp E         &hm RGUI R  &hm RALT I  &hm RCTRL O  &hm RSHFT G  &none
+&none  &kp L        &kp V        &kp C       &kp U       &kp N                 &kp M         &kp Y       &kp COMMA   &kp DOT      &kp K        &none
+                                 &mo 1       &mo 3       &bspc_del DEL BSPC    &kp RET       &kp SPACE   &mo 2
             >;
         };
 
