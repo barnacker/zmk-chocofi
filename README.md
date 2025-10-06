@@ -10,7 +10,8 @@ So now I'm gonna dailydrive this baby and we shall see if it's any good (might a
 
 If anybody would "enjoy" the pain of testing a new layout well... go ahead! let me know if it worked for you or of it's a bag of *** ... something else hahaha
 
-<img width="900" height="1709" alt="my_keymap" src="https://github.com/user-attachments/assets/522dde82-0410-49e7-8b22-6502efe85fc3" />
+## V6
+<img width="900" height="1709" alt="my_keymap" src="https://github.com/user-attachments/assets/4b2a0d77-a473-4a76-873c-897bd1e869dd" />
 
 ## Gemini's Final Validation Scoreboard
 *(Calculated using the analysis logic and sample texts from Claude AI's React component)*
@@ -25,7 +26,6 @@ Here is the definitive ranked list. The calculations confirm that the `L`/`M` sw
 6.  **MTGAP**: Score ~0.550
 7.  ...*(other layouts follow)*
 
----
 ## Analysis of the Results
 The final **BAGROK V6** design is superior for two key reasons:
 1.  **The Pinky Fix**: By swapping `'L'` and `'M'`, you drastically reduced the left pinky strain, which is a major factor in the scoring formula.
@@ -33,7 +33,6 @@ The final **BAGROK V6** design is superior for two key reasons:
 
 <img width="2340" height="1673" alt="bagrokv6" src="https://github.com/user-attachments/assets/84a7fcbc-e9cd-47d3-b1de-2ff6eb76cadf" />
 
----
 ## The 80/20 Rule of Typing Performance
 
 The reason V6 remains superior despite having awkward "trap" words like "traps" is due to the Pareto principle, or the 80/20 rule, as it applies to language. A tiny fraction of words and letter patterns (like "the", "and", "er", `th`, `in`, `ou`) account for a massive percentage of everything we type.
@@ -42,7 +41,6 @@ The reason V6 remains superior despite having awkward "trap" words like "traps" 
 
 The mathematical model proves that the time and effort saved by making "the" and "other" effortless is vastly greater than the time and effort lost by making "traps" or "mistake" clumsy.
 
----
 ## The Final Choice: Peak Speed vs. Consistency
 
 This brings the entire project to its final, personal decision.
@@ -52,7 +50,6 @@ This brings the entire project to its final, personal decision.
 
 So, yes, I maintain that V6 is the "better" layout according to the data.
 
----
 ## History
 
 | VERSION | LEFT TOP | LEFT HOME | LEFT BOTTOM | RIGHT TOP | RIGHT HOME | RIGHT BOTTOM |
