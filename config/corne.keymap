@@ -145,10 +145,10 @@
 
         fnk {
             bindings = <
-&none  &sys_reset  &bootloader  &none         &none         &none       &bt BT_PRV  &kp F1  &kp F2   &kp F3   &kp F4   &none
-&none  &kp C_PREV  &kp C_NEXT   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP    &bt BT_NXT  &kp F5  &kp F6   &kp F7   &kp F8   &none
-&none  &none       &none        &kp C_BRI_DN  &kp C_BRI_UP  &none       &bt BT_CLR  &kp F9  &kp F10  &kp F11  &kp F12  &none
-                                &trans        &trans        &trans      &trans      &trans  &trans
+&none  &sys_reset  &bootloader  &none         &none         &none         &none         &kp F1  &kp F2   &kp F3   &kp F4   &none
+&none  &kp C_PREV  &kp C_NEXT   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP      &kp C_BRI_UP  &kp F5  &kp F6   &kp F7   &kp F8   &none
+&none  &none       &none        &bt BT_PRV    &bt BT_NXT    &bt BT_CLR    &kp C_BRI_DN  &kp F9  &kp F10  &kp F11  &kp F12  &none
+                                &trans        &trans        &trans        &trans        &trans  &trans
             >;
         };
     };
