@@ -62,33 +62,27 @@
             layers = <0>;
         };
 
-        er {
-            bindings = <&er>;
-            key-positions = <18 19>;
-            layers = <0>;
-        };
-
         then {
             bindings = <&then>;
-            key-positions = <16 14 15>;
+            key-positions = <16 15 14>;
             layers = <0>;
         };
 
         else {
             bindings = <&else>;
-            key-positions = <18 25>;
+            key-positions = <19 3>;
             layers = <0>;
         };
 
         and {
             bindings = <&and>;
-            key-positions = <13 29>;
+            key-positions = <4 5>;
             layers = <0>;
         };
 
         ing {
             bindings = <&ing>;
-            key-positions = <20 21 22>;
+            key-positions = <17 18>;
         };
     };
 
@@ -106,14 +100,6 @@
             #binding-cells = <0>;
             bindings = <&kp T &kp H &kp E &kp SPACE>;
             label = "THE";
-            tap-ms = <30>;
-        };
-
-        er: er {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp R>;
-            label = "ER";
             tap-ms = <30>;
         };
 
