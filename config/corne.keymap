@@ -35,6 +35,11 @@
             bindings = <&mo 3>;
             key-positions = <36 41>;
         };
+
+        enter {
+            bindings = <&kp RET>;
+            key-positions = <22 21>;
+        };
     };
 
     macros {
@@ -135,7 +140,7 @@
 &none  &kp X        &kp P        &kp D       &kp M       &lingerq 0 Q          &kp EQUAL  &kp Y       &kp O       &kp U        &kp COMMA    &none
 &none  &hm LSHFT S  &hm LCTRL N  &hm LALT T  &hm LGUI H  &kp V                 &kp G      &hm RGUI C  &hm RALT A  &hm RCTRL E  &hm RSHFT I  &none
 &none  &kp F        &kp B        &kp K       &kp L       &kp J                 &kp Z      &kp W       &kp APOS    &kp SLASH    &kp DOT      &none
-                                 &mo 1       &kp R       &bspc_del DEL BSPC    &kp RET    &kp SPACE   &mo 2
+                                 &mo 1       &kp R       &bspc_del DEL BSPC    &kp SPACE  &mo 3       &mo 2
             >;
         };
 
