@@ -128,6 +128,18 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        thmo: thumb_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "thumblayer";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            flavor = "balanced";
+            bindings = <&mo>, <&kp>;
+
+            require-prior-idle-ms = <150>;
+        };
     };
 
     keymap {
@@ -137,10 +149,10 @@
 
         baz {
             bindings = <
-&none  &kp X        &kp P        &kp D       &kp M       &lingerq 0 Q          &kp Z      &kp W       &kp SQT     &kp SLASH    &kp COMMA    &none
-&none  &hm LSHFT S  &hm LCTRL N  &hm LALT T  &hm LGUI H  &kp V                 &kp G      &hm RGUI C  &hm RALT A  &hm RCTRL E  &hm RSHFT I  &none
-&none  &kp F        &kp B        &kp K       &kp L       &kp J                 &kp EQUAL  &kp Y       &kp O       &kp U        &kp DOT      &none
-                                 &mo 1       &kp R       &bspc_del DEL BSPC    &kp SPACE  &mo 3       &mo 2
+&none  &kp X        &kp P        &kp D       &kp M       &lingerq 0 Q          &kp Z      &kp W          &kp SQT     &kp SLASH    &kp COMMA    &none
+&none  &hm LSHFT S  &hm LCTRL N  &hm LALT T  &hm LGUI H  &kp V                 &kp G      &hm RGUI C     &hm RALT A  &hm RCTRL E  &hm RSHFT I  &none
+&none  &kp F        &kp B        &kp K       &kp L       &kp J                 &kp EQUAL  &kp Y          &kp O       &kp U        &kp DOT      &none
+                                 &mo 1       &kp R       &bspc_del DEL BSPC    &kp RET    &thmo 3 SPACE  &mo 2
             >;
         };
 
