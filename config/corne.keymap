@@ -38,7 +38,7 @@
 
         enter {
             bindings = <&kp RET>;
-            key-positions = <22 21>;
+            key-positions = <19 20>;
         };
     };
 
