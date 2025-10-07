@@ -152,7 +152,7 @@
 &none  &kp J  &kp G  &kp D  &kp W  &lingerq 0 Q          &kp SEMI   &kp P          &kp COMMA  &kp DOT  &kp K  &none
 &none  &kp C  &kp S  &kp T  &kp R  &kp X                 &kp V      &kp N          &kp A      &kp I    &kp H  &none
 &none  &kp Y  &kp F  &kp M  &kp L  &kp EQUAL             &kp SLASH  &kp B          &kp O      &kp U    &kp Z  &none
-                     &mo 2  &kp R  &bspc_del DEL BSPC    &kp RET    &thmo 3 SPACE  &mo 1
+                     &mo 2  &kp E  &bspc_del DEL BSPC    &kp RET    &thmo 3 SPACE  &mo 1
             >;
         };
 
