@@ -45,6 +45,43 @@
             label = "QU";
             tap-ms = <30>;
         };
+        the: the {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp H &kp E &kp SPACE>;
+            label = "THE";
+            tap-ms = <30>;
+        };
+
+        then: then {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp H &kp E &kp N &kp SPACE>;
+            label = "THEN";
+            tap-ms = <30>;
+        };
+
+        else: else {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp L &kp S &kp E &kp SPACE>;
+            label = "ELSE";
+        };
+
+        and: and {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp N &kp D &kp SPACE>;
+            label = "AND";
+            tap-ms = <30>;
+        };
+
+        ing: ing {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp N &kp G>;
+            label = "ING";
+        };
     };
 
     behaviors {
