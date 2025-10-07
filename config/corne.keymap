@@ -137,9 +137,9 @@
 
         baz {
             bindings = <
-&none  &kp X        &kp P        &kp D       &kp M       &lingerq 0 Q          &kp EQUAL  &kp Y       &kp O       &kp U        &kp COMMA    &none
+&none  &kp X        &kp P        &kp D       &kp M       &lingerq 0 Q          &kp Z      &kp W       &kp SQT     &kp SLASH    &kp COMMA    &none
 &none  &hm LSHFT S  &hm LCTRL N  &hm LALT T  &hm LGUI H  &kp V                 &kp G      &hm RGUI C  &hm RALT A  &hm RCTRL E  &hm RSHFT I  &none
-&none  &kp F        &kp B        &kp K       &kp L       &kp J                 &kp Z      &kp W       &kp APOS    &kp SLASH    &kp DOT      &none
+&none  &kp F        &kp B        &kp K       &kp L       &kp J                 &kp EQUAL  &kp Y       &kp O       &kp U        &kp DOT      &none
                                  &mo 1       &kp R       &bspc_del DEL BSPC    &kp SPACE  &mo 3       &mo 2
             >;
         };
@@ -159,10 +159,10 @@
 
         sym {
             bindings = <
-&none  &none     &none     &none     &none     &none        &kp DLLR  &kp GRAVE  &kp BSLH  &kp TILDE  &kp CARET  &none
-&none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &kp MINUS    &kp PIPE  &kp QMARK  &kp EXCL  &kp EQUAL  &kp AMPS   &none
-&none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &kp UNDER    &kp HASH  &kp AT     &kp SQT   &kp DQT    &kp PRCNT  &none
-                           &trans    &trans    &trans       &trans    &trans     &trans
+&none  &none     &none     &none     &none     &none        &kp DLLR   &kp GRAVE  &kp SQT   &kp DQT    &kp CARET  &none
+&none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &kp MINUS    &kp PIPE   &kp QMARK  &kp EXCL  &kp EQUAL  &kp AMPS   &none
+&none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &kp UNDER    &kp TILDE  &kp HASH   &kp AT    &kp PRCNT  &kp BSLH   &none
+                           &trans    &trans    &trans       &trans     &trans     &trans
             >;
         };
 
