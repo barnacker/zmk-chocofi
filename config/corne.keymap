@@ -92,6 +92,15 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        sqtundr: sqtundr {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SQTUNDR";
+            bindings = <&kp SQT>, <&kp UNDER>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
@@ -101,10 +110,10 @@
 
         base {
             bindings = <
-&none  &kp B         &kp W        &kp F       &kp P       &kp B                 &kp SQT  &kp F       &kp O       &kp U        &kp J        &none
-&none  &hm LSHFT N   &hm LCTRL R  &hm LALT T  &hm LGUI S  &kp G                 &kp Y    &hm RGUI H  &hm RALT A  &hm RCTRL E  &hm RSHFT I  &none
-&none  &lingerq 0 Q  &kp X        &kp M       &kp C       &kp V                 &kp K    &kp P       &kp PERIOD  &kp MINUS    &kp SLASH    &none
-                                  &mo 1       &mo 2       &bspc_del DEL BSPC    &kp RET  &kp SPACE   &mo 3
+&none  &kp B         &kp W        &kp F       &kp P       &kp B                 &sqtundr  &kp F       &kp O       &kp U        &kp J        &none
+&none  &hm LSHFT N   &hm LCTRL R  &hm LALT T  &hm LGUI S  &kp G                 &kp Y     &hm RGUI H  &hm RALT A  &hm RCTRL E  &hm RSHFT I  &none
+&none  &lingerq 0 Q  &kp X        &kp M       &kp C       &kp V                 &kp K     &kp P       &kp PERIOD  &kp MINUS    &kp SLASH    &none
+                                  &mo 1       &mo 2       &bspc_del DEL BSPC    &kp RET   &kp SPACE   &mo 3
             >;
         };
 
