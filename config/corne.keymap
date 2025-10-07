@@ -30,6 +30,11 @@
             key-positions = <13 22>;
             layers = <0>;
         };
+
+        i3w {
+            bindings = <&mo 3>;
+            key-positions = <36 41>;
+        };
     };
 
     macros {
@@ -87,12 +92,12 @@
 
         // BASE LAYER - BAGROK OPTIMIZED
 
-        base {
+        baz {
             bindings = <
 &none  &kp X        &kp P        &kp D       &kp M       &lingerq 0 Q          &kp J    &kp SEMI    &kp SLASH   &kp X        &kp Z        &none
 &none  &hm LSHFT S  &hm LCTRL N  &hm LALT T  &hm LGUI H  &kp V                 &kp G    &hm RGUI C  &hm RALT A  &hm RCTRL E  &hm RSHFT I  &none
 &none  &kp F        &kp B        &kp K       &kp L       &kp J                 &kp Z    &kp W       &kp APOS    &kp SLASH    &kp DOT      &none
-                                 &mo 1       &kp R       &bspc_del DEL BSPC    &kp RET  &kp SPACE   &mo 3
+                                 &mo 1       &kp R       &bspc_del DEL BSPC    &kp RET  &kp SPACE   &mo 2
             >;
         };
 
