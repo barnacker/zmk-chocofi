@@ -35,11 +35,6 @@
             bindings = <&mo 3>;
             key-positions = <36 41>;
         };
-
-        enter {
-            bindings = <&kp RET>;
-            key-positions = <19 20>;
-        };
     };
 
     macros {
