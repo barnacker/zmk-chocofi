@@ -28,7 +28,7 @@
 
         capsw {
             bindings = <&caps_word>;
-            key-positions = <13 22>;
+            key-positions = <16 19>;
             layers = <0>;
         };
 
@@ -176,10 +176,10 @@
 
         baz {
             bindings = <
-&none  &kp F        &kp B        &kp K       &kp L       &kp J                 &kp Z      &kp W          &kp SQT     &kp SLASH    &kp COMMA    &none
-&none  &hm LGUI S   &hm LALT N   &hm LCTRL T &hm LSHFT H &kp V                 &kp G      &hm RSHFT C    &hm RCTRL A &hm RALT E   &hm RGUI I   &none
-&none  &kp X        &kp P        &kp D       &kp M       &lingerq Q 0          &kp EQUAL  &kp Y          &kp O       &kp U        &kp DOT      &none
-                                 &mo 2       &thmo 5 R   &bspc_del DEL BSPC    &kp RET    &thmo 3 SPACE  &mo 1
+&none  &kp F       &kp B       &kp K        &kp L        &kp J                 &kp Z      &kp W          &kp SQT      &kp SLASH   &kp COMMA   &none
+&none  &hm LGUI S  &hm LALT N  &hm LCTRL T  &hm LSHFT H  &kp V                 &kp G      &hm RSHFT C    &hm RCTRL A  &hm RALT E  &hm RGUI I  &none
+&none  &kp X       &kp P       &kp D        &kp M        &lingerq Q 0          &kp EQUAL  &kp Y          &kp O        &kp U       &kp DOT     &none
+                               &mo 2        &thmo 5 R    &bspc_del DEL BSPC    &kp RET    &thmo 3 SPACE  &mo 1
             >;
         };
 
