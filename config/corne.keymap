@@ -1,6 +1,6 @@
 /*
- * snth - Chocofi 3x5 Split Keyboard
- * https://www.reddit.com/r/KeyboardLayouts/comments/18jefux/snth/
+ * barnsnth - Chocofi 3x5 Split Keyboard
+ * flipped version of https://www.reddit.com/r/KeyboardLayouts/comments/18jefux/snth/
  */
 
 #include <behaviors.dtsi>
