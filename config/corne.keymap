@@ -145,9 +145,9 @@
 
         baz {
             bindings = <
-&none  &kp X        &kp P        &kp D       &kp M       &lingerq Q Q          &kp Z      &kp W          &kp SQT     &kp SLASH    &kp COMMA    &none
+&none  &kp F        &kp B        &kp K       &kp L       &kp J                 &kp Z      &kp W          &kp SQT     &kp SLASH    &kp COMMA    &none
 &none  &hm LSHFT S  &hm LCTRL N  &hm LALT T  &hm LGUI H  &kp V                 &kp G      &hm RGUI C     &hm RALT A  &hm RCTRL E  &hm RSHFT I  &none
-&none  &kp F        &kp B        &kp K       &kp L       &kp J                 &kp EQUAL  &kp Y          &kp O       &kp U        &kp DOT      &none
+&none  &kp X        &kp P        &kp D       &kp M       &lingerq Q 0          &kp EQUAL  &kp Y          &kp O       &kp U        &kp DOT      &none
                                  &mo 2       &thmo 5 R   &bspc_del DEL BSPC    &kp RET    &thmo 3 SPACE  &mo 1
             >;
         };
@@ -190,10 +190,10 @@
 
         mou {
             bindings = <
-&trans  &trans  &msc SCRL_UP    &trans     &trans  &trans    &trans     &trans          &msc SCRL_UP    &trans  &trans  &trans
-&trans  &trans  &mkp RCLK       &mkp LCLK  &trans  &trans    &trans     &mkp LCLK       &mkp RCLK       &trans  &trans  &trans  &trans
-&trans  &trans  &msc SCRL_DOWN  &trans     &trans  &trans    &trans     &trans          &msc SCRL_DOWN  &trans  &trans  &trans  &trans
-                                &trans     &trans  &trans    &trans     &trans          &trans
+&trans  &trans  &msc SCRL_UP  &trans          &trans  &trans    &trans  &trans     &msc SCRL_UP  &trans          &trans  &trans
+&trans  &trans  &mkp RCLK     &mkp LCLK       &trans  &trans    &trans  &mkp LCLK  &mkp RCLK     &trans          &trans  &trans
+&trans  &trans  &trans        &msc SCRL_DOWN  &trans  &trans    &trans  &trans     &trans        &msc SCRL_DOWN  &trans  &trans
+                              &trans          &trans  &trans    &trans  &trans     &trans
             >;
         };
     };
