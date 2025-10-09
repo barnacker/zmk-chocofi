@@ -36,6 +36,31 @@
             bindings = <&mo 3>;
             key-positions = <36 41>;
         };
+
+        ing {
+            bindings = <&ing>;
+            key-positions = <22 21>;
+        };
+
+        the {
+            bindings = <&the>;
+            key-positions = <15 16>;
+        };
+
+        then {
+            bindings = <&then>;
+            key-positions = <14 16 15>;
+        };
+
+        else {
+            bindings = <&else>;
+            key-positions = <21 20 19>;
+        };
+
+        and {
+            bindings = <&and>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
