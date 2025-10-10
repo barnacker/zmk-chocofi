@@ -30,7 +30,7 @@
         esc {
             bindings = <&kp ESC>;
             key-positions = <13 16>;
-            layers = <0>;c
+            layers = <0>;
         };
 
         capsw {
