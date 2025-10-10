@@ -18,54 +18,68 @@
             bindings = <&kp TAB>;
             key-positions = <13 14>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <125>;
         };
 
         esc {
             bindings = <&kp ESC>;
             key-positions = <13 16>;
             layers = <0>;
+            timeout-ms = <40>;
         };
 
         capsw {
             bindings = <&caps_word>;
             key-positions = <16 19>;
             layers = <0>;
-        };
-
-        i3w {
-            bindings = <&mo 3>;
-            key-positions = <36 41>;
-            layers = <0>;
+            timeout-ms = <40>;
         };
 
         ing {
             bindings = <&ing>;
             key-positions = <22 21>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <125>;
         };
 
         the {
             bindings = <&the>;
             key-positions = <15 16>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <125>;
         };
 
         then {
             bindings = <&then>;
             key-positions = <14 16 15>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <125>;
         };
 
         else {
             bindings = <&else>;
             key-positions = <21 20 19>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <125>;
         };
 
         and {
             bindings = <&and>;
             key-positions = <19 20>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <125>;
         };
     };
 
@@ -124,8 +138,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <175>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <250>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
 
@@ -221,10 +235,10 @@
 
         mou {
             bindings = <
-&trans  &trans  &trans     &msc SCRL_UP    &trans  &trans    &trans  &trans     &msc SCRL_UP    &trans  &trans  &trans
-&trans  &trans  &mkp RCLK  &mkp LCLK       &trans  &trans    &trans  &mkp LCLK  &mkp RCLK       &trans  &trans  &trans
-&trans  &trans  &trans     &msc SCRL_DOWN  &trans  &trans    &trans  &trans     &msc SCRL_DOWN  &trans  &trans  &trans
-                           &trans          &trans  &trans    &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &msc SCRL_UP    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &msc SCRL_DOWN  &mkp RCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans          &trans     &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans     &trans
             >;
         };
     };
