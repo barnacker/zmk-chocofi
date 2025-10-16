@@ -203,9 +203,9 @@
 
         sym {
             bindings = <
-&none  &none     &none     &none     &none     &kp CARET    &kp TILDE  &kp GRAVE  &kp DQT   &kp BSLH   &kp COLON      &none
+&none  &none     &none     &none     &none     &none        &kp TILDE  &kp GRAVE  &kp DQT   &kp BSLH   &kp COLON      &none
 &none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &kp UNDER    &kp PIPE   &kp QMARK  &kp EXCL  &kp EQUAL  &kp AMPS       &none
-&none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &none        &kp DLLR   &kp HASH   &kp AT    &kp PRCNT  &kp SEMICOLON  &none
+&none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &kp CARET    &kp DLLR   &kp HASH   &kp AT    &kp PRCNT  &kp SEMICOLON  &none
                            &trans    &trans    &trans       &trans     &trans     &trans
             >;
         };
