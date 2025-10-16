@@ -15,6 +15,7 @@
         compatible = "zmk,combos";
 
         // Global defaults
+
         timeout-ms = <50>;
         require-prior-idle-ms = <100>;
 
@@ -193,18 +194,18 @@
 
         baz {
             bindings = <
-&none  &kp F       &kp B       &kp K        &kp L        &kp J                 &kp Z      &kp W          &kp SQT      &kp SLASH   &kp COMMA   &none
+&none  &kp F       &kp B       &kp K        &kp L        &kp J                 &kp EQUAL  &kp W          &kp SQT      &kp SLASH   &kp PERIOD  &none
 &none  &hm LGUI S  &hm LALT N  &hm LCTRL T  &hm LSHFT H  &kp V                 &kp G      &hm RSHFT C    &hm RCTRL A  &hm RALT E  &hm RGUI I  &none
-&none  &kp X       &kp P       &kp D        &kp M        &lingerq Q 0          &kp EQUAL  &kp Y          &kp O        &kp U       &kp DOT     &none
+&none  &kp X       &kp P       &kp D        &kp M        &lingerq Q 0          &kp Z      &kp Y          &kp O        &kp U       &kp COMMA   &none
                                &mo 2        &thmo 5 R    &bspc_del DEL BSPC    &kp RET    &thmo 3 SPACE  &mo 1
             >;
         };
 
         sym {
             bindings = <
-&none  &none     &none     &none     &none     &kp CARET    &kp TILDE  &kp GRAVE  &kp DQT   &kp BSLH   &kp SEMI   &none
-&none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &kp MINUS    &kp PIPE   &kp QMARK  &kp EXCL  &kp EQUAL  &kp AMPS   &none
-&none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &kp UNDER    &kp DLLR   &kp HASH   &kp AT    &kp PRCNT  &kp COLON  &none
+&none  &none     &none     &none     &none     &kp CARET    &kp TILDE  &kp GRAVE  &kp DQT   &kp BSLH   &kp COLON      &none
+&none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &kp UNDER    &kp PIPE   &kp QMARK  &kp EXCL  &kp EQUAL  &kp AMPS       &none
+&none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &none        &kp DLLR   &kp HASH   &kp AT    &kp PRCNT  &kp SEMICOLON  &none
                            &trans    &trans    &trans       &trans     &trans     &trans
             >;
         };
