@@ -240,8 +240,8 @@
         mou {
             bindings = <
 &none  &kp ESC    &kp HOME  &kp UP    &kp END    &kp PG_UP    &trans  &trans     &msc SCRL_UP    &trans     &trans  &trans
-&none  &kp LSHFT  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN    &trans  &mkp LCLK  &msc SCRL_DOWN  &mkp RCLK  &trans  &trans
-&none  &kp LCTRL  &kp LALT  &none     &none      &none        &trans  &trans     &trans          &trans     &trans  &trans
+&none  &kp LSHFT  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN    &trans  &mkp LCLK  &mkp MCLK       &mkp RCLK  &trans  &trans
+&none  &kp LCTRL  &kp LALT  &none     &none      &none        &trans  &trans     &msc SCRL_DOWN  &trans     &trans  &trans
                             &trans    &trans     &trans       &trans  &trans     &trans
             >;
         };
