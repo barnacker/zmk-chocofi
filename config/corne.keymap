@@ -206,7 +206,7 @@
 &none  &none     &none     &none     &none     &none        &kp TILDE  &kp GRAVE  &kp DQT   &kp BSLH   &kp COLON      &none
 &none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &kp UNDER    &kp PIPE   &kp QMARK  &kp EXCL  &kp EQUAL  &kp AMPS       &none
 &none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &kp CARET    &kp DLLR   &kp HASH   &kp AT    &kp PRCNT  &kp SEMICOLON  &none
-                           &trans    &trans    &trans       &trans     &trans     &trans
+                           &tog 6    &trans    &trans       &trans     &trans     &trans
             >;
         };
 
@@ -251,7 +251,7 @@
 &none  &kp TAB    &kp Q  &kp W  &kp E     &kp R        &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
 &none  &kp LSHFT  &kp A  &kp S  &kp D     &kp F        &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &kp LCTRL  &kp Z  &kp X  &kp C     &kp V        &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                         &kp I  &kp LALT  &kp SPACE    &kp RET    &kp N0  &tog 5
+                         &kp I  &kp LALT  &kp SPACE    &kp RET    &kp N0  &tog 0
             >;
         };
     };
