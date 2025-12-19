@@ -85,6 +85,12 @@
             timeout-ms = <75>;
             require-prior-idle-ms = <125>;
         };
+
+        game_esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
+            layers = <6>;
+        };
     };
 
     macros {
