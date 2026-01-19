@@ -10,7 +10,12 @@
 
 &sl { release-after-ms = <125>; };
 
-&lt { flavor = "balanced"; };
+&lt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <280>;
+    quick-tap-ms = <250>;
+    require-prior-idle-ms = <125>;
+};
 
 / {
     combos {
