@@ -139,13 +139,6 @@
             bindings = <&kp I &kp N &kp G>;
             label = "ING";
         };
-
-        held_action: held_action {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp P &kp>;
-            label = "HELD_ACTION";
-        };
     };
 
     behaviors {
