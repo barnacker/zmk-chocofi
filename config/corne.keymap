@@ -204,10 +204,10 @@
             require-prior-idle-ms = <150>;
         };
 
-        quick_layer: quick_layer {
+        p_or_layer: p_or_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "QUICK_LAYER";
-            bindings = <&mo>, <&kp>;
+            label = "P_OR_LAYER";
+            bindings = <&mo>, <&held_game_p>;
 
             #binding-cells = <2>;
             tapping-term-ms = <280>;
@@ -277,10 +277,10 @@
 
         gam {
             bindings = <
-&none  &kp TAB    &kp Q  &kp W  &kp E             &kp R        &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
-&none  &kp LSHFT  &kp A  &kp S  &kp D             &kp F        &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
-&none  &kp LCTRL  &kp Z  &kp X  &kp C             &kp V        &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                         &kp I  &quick_layer 7 P  &kp SPACE    &kp RET    &kp N0  &tog 6
+&none  &kp TAB    &kp Q  &kp W  &kp E            &kp R        &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &kp LSHFT  &kp A  &kp S  &kp D            &kp F        &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &kp LCTRL  &kp Z  &kp X  &kp C            &kp V        &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
+                         &kp I  &p_or_layer 7 P  &kp SPACE    &kp RET    &kp N0  &tog 6
             >;
         };
 
