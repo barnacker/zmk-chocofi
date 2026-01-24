@@ -140,17 +140,14 @@
             label = "ING";
         };
 
-        held_game_p: held_game_p {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            label = "HELD_GAME_P";
-            bindings =
-                <&macro_press>,
-                <&kp P>,
-                <&macro_wait_time 200>,
-                <&macro_release>,
-                <&kp P>;
-        };
+held_game_p: held_game_p {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    label = "HELD_GAME_P";
+    bindings = <&kp P>;
+    wait-ms = <0>;
+    tap-ms = <10>;
+};
     };
 
     behaviors {
