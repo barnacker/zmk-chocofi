@@ -147,7 +147,7 @@
             bindings =
                 <&macro_press>,
                 <&kp P>,
-                <&macro_wait_time 220>,
+                <&macro_wait_time 200>,
                 <&macro_release>,
                 <&kp P>;
         };
