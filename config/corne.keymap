@@ -139,6 +139,22 @@
             bindings = <&kp I &kp N &kp G>;
             label = "ING";
         };
+
+        hold_e: hold_e {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E>;
+            label = "HOLD_E";
+            tap-ms = <250>;
+        };
+
+        hold_b: hold_b {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B>;
+            label = "HOLD_B";
+            tap-ms = <250>;
+        };
     };
 
     behaviors {
@@ -192,13 +208,23 @@
             require-prior-idle-ms = <150>;
         };
 
-        game_mod: game_mod {
+        e_mod: e_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "GAME_MOD";
-            bindings = <&kp>, <&kp>;
+            label = "E_MOD";
+            bindings = <&kp>, <&hold_e>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
+            tapping-term-ms = <150>;
+            flavor = "tap-preferred";
+        };
+
+        b_mod: b_mod {
+            compatible = "zmk,behavior-hold-tap";
+            label = "B_MOD";
+            bindings = <&kp>, <&hold_b>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
             flavor = "tap-preferred";
         };
     };
@@ -264,10 +290,10 @@
 
         gam {
             bindings = <
-&none  &kp X      &kp Q  &kp W            &kp E      &kp K            &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
-&none  &kp LSHFT  &kp A  &kp S            &kp D      &kp F            &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
-&none  &kp P      &kp Z  &game_mod TAB B  &kp C      &kp V            &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                         &kp LCTRL        &kp SPACE  &game_mod I R    &kp RET    &kp N0  &tog 6
+&none  &kp X      &kp Q  &kp W         &e_mod E 0  &kp K    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &kp LSHFT  &kp A  &kp S         &kp D       &kp F    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &kp P      &kp Z  &b_mod TAB B  &kp C       &kp V    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
+                         &kp LCTRL     &kp SPACE   &kp R    &kp RET    &kp N0  &tog 6
             >;
         };
     };
