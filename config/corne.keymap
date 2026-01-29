@@ -146,6 +146,7 @@
             bindings = <&kp E>;
             label = "HOLD_E";
             tap-ms = <250>;
+            wait-ms = <5>;
         };
 
         hold_b: hold_b {
@@ -154,6 +155,7 @@
             bindings = <&kp B>;
             label = "HOLD_B";
             tap-ms = <250>;
+            wait-ms = <5>;
         };
     };
 
@@ -214,7 +216,7 @@
             bindings = <&kp>, <&hold_e>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <80>;
             flavor = "tap-preferred";
         };
 
@@ -224,7 +226,7 @@
             bindings = <&kp>, <&hold_b>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <80>;
             flavor = "tap-preferred";
         };
     };
