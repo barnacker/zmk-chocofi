@@ -140,11 +140,11 @@
             label = "ING";
         };
 
-        held_game_p: held_game_p {
+        held_game_spc: held_game_p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             label = "HELD_GAME_P";
-            bindings = <&kp P>;
+            bindings = <&kp SPACE>;
             wait-ms = <0>;
             tap-ms = <10>;
         };
@@ -201,10 +201,10 @@
             require-prior-idle-ms = <150>;
         };
 
-        p_or_layer: p_or_layer {
+        spc_qs: spc_qs {
             compatible = "zmk,behavior-hold-tap";
-            label = "P_OR_LAYER";
-            bindings = <&mo>, <&held_game_p>;
+            label = "SPC_QS";
+            bindings = <&mo>, <&held_game_spc>;
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
@@ -273,10 +273,10 @@
 
         gam {
             bindings = <
-&none  &kp TAB    &kp Q  &kp W            &kp E      &kp I    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
-&none  &kp LSHFT  &kp A  &kp S            &kp D      &kp F    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
-&none  &kp LCTRL  &kp Z  &kp X            &kp C      &kp V    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                         &p_or_layer 7 0  &kp SPACE  &kp R    &kp RET    &kp N0  &tog 6
+&none  &kp TAB    &kp Q  &kp W  &kp E        &kp I    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &kp LSHFT  &kp A  &kp S  &kp D        &kp F    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &kp LCTRL  &kp Z  &kp X  &kp C        &kp V    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
+                         &kp P  &spc_qs 7 0  &kp R    &kp RET    &kp N0  &tog 6
             >;
         };
 
