@@ -145,8 +145,8 @@
             #binding-cells = <0>;
             bindings = <&kp E>;
             label = "HOLD_E";
-            tap-ms = <250>;
-            wait-ms = <5>;
+            tap-ms = <10>;
+            wait-ms = <0>;
         };
 
         hold_b: hold_b {
@@ -154,8 +154,8 @@
             #binding-cells = <0>;
             bindings = <&kp B>;
             label = "HOLD_B";
-            tap-ms = <250>;
-            wait-ms = <5>;
+            tap-ms = <10>;
+            wait-ms = <0>;
         };
     };
 
