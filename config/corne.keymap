@@ -234,7 +234,7 @@
             bindings = <&kp>, <&hold_r>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <130>;
             flavor = "tap-preferred";
         };
 
@@ -244,7 +244,7 @@
             bindings = <&kp>, <&hold_1>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <130>;
             flavor = "tap-preferred";
         };
 
@@ -254,7 +254,7 @@
             bindings = <&kp>, <&hold_2>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <130>;
             flavor = "tap-preferred";
         };
     };
