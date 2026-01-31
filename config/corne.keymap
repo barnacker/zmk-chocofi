@@ -140,10 +140,10 @@
             label = "ING";
         };
 
-        hold_f: hold_e {
+        hold_r: hold_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F>;
+            bindings = <&kp R>;
             label = "HOLD_E";
             tap-ms = <10>;
             wait-ms = <0>;
@@ -228,10 +228,10 @@
             require-prior-idle-ms = <150>;
         };
 
-        f_mod: f_mod {
+        r_mod: r_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "F_MOD";
-            bindings = <&kp>, <&hold_f>;
+            label = "R_MOD";
+            bindings = <&kp>, <&hold_r>;
 
             #binding-cells = <2>;
             tapping-term-ms = <100>;
@@ -321,9 +321,9 @@
         gam {
             bindings = <
 &none  &kp X      &one_mod Q 0  &kp W      &two_mod E 0  &kp K         &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
-&none  &kp LSHFT  &kp A         &kp S      &kp D         &f_mod I 0    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &kp LSHFT  &kp A         &kp S      &kp D         &r_mod I 0    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &kp P      &kp Z         &kp TAB    &kp C         &kp V         &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                                &kp LCTRL  &kp SPACE     &kp R         &kp RET    &kp N0  &tog 6
+                                &kp LCTRL  &kp SPACE     &kp F         &kp RET    &kp N0  &tog 6
             >;
         };
     };
