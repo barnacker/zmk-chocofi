@@ -158,21 +158,21 @@
             wait-ms = <0>;
         };
 
-        hold_1: hold_1 {
+        tap_1: tap_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N1>;
-            label = "HOLD_1";
-            tap-ms = <10>;
+            label = "TAP_1";
+            tap-ms = <30>;
             wait-ms = <0>;
         };
 
-        hold_2: hold_2 {
+        tap_p: tap_p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N2>;
-            label = "HOLD_2";
-            tap-ms = <10>;
+            bindings = <&kp P>;
+            label = "TAP_P";
+            tap-ms = <30>;
             wait-ms = <0>;
         };
     };
@@ -228,9 +228,9 @@
             require-prior-idle-ms = <150>;
         };
 
-        r_mod: r_mod {
+        f_mod: f_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "R_MOD";
+            label = "F_MOD";
             bindings = <&kp>, <&hold_r>;
 
             #binding-cells = <2>;
@@ -241,20 +241,20 @@
         one_mod: one_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "ONE_MOD";
-            bindings = <&kp>, <&hold_1>;
+            bindings = <&kp>, <&tap_1>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <130>;
+            tapping-term-ms = <250>;
             flavor = "tap-preferred";
         };
 
-        two_mod: two_mod {
+        p_mod: p_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "TWO_MOD";
-            bindings = <&kp>, <&hold_2>;
+            label = "P_MOD";
+            bindings = <&tap_p>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <130>;
+            tapping-term-ms = <250>;
             flavor = "tap-preferred";
         };
     };
@@ -320,10 +320,10 @@
 
         gam {
             bindings = <
-&none  &kp X      &one_mod Q 0  &kp W      &two_mod E 0  &kp K         &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
-&none  &kp LSHFT  &kp A         &kp S      &kp D         &r_mod I 0    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
-&none  &kp P      &kp Z         &kp TAB    &kp C         &kp V         &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                                &kp LCTRL  &kp SPACE     &kp F         &kp RET    &kp N0  &tog 6
+&none  &kp X      &one_mod Q 0  &kp W      &p_mod 0 N2  &kp E    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &kp LSHFT  &kp A         &kp S      &kp D        &kp F    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &kp K      &kp Z         &kp TAB    &kp C        &kp I    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
+                                &kp LCTRL  &kp SPACE    &kp V    &kp RET    &kp N0  &tog 6
             >;
         };
     };
