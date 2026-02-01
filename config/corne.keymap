@@ -279,7 +279,7 @@
         three_mod: three_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "THREE_MOD";
-            bindings = <&tap_3>, <&kp>;
+            bindings = <&kp>, <&tap_3>;
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
@@ -289,7 +289,7 @@
         four_mod: four_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "FOUR_MOD";
-            bindings = <&tap_4>, <&kp>;
+            bindings = <&kp>, <&tap_4>;
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
@@ -358,7 +358,7 @@
 
         gam {
             bindings = <
-&none  &three_mod 0 X  &one_mod Q 0  &kp W      &p_mod 0 N2  &four_mod 0 E    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &three_mod X X  &one_mod Q 0  &kp W      &p_mod 0 N2  &four_mod E E    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
 &none  &kp LSHFT       &kp A         &kp S      &kp D        &kp F            &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &kp K           &kp Z         &kp TAB    &kp C        &kp I            &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
                                      &kp LCTRL  &kp SPACE    &kp V            &kp RET    &kp N0  &tog 6
