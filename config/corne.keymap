@@ -276,9 +276,9 @@
             flavor = "tap-preferred";
         };
 
-        three_mod: three_mod {
+        four_mod: four_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "THREE_MOD";
+            label = "FOUR_MOD";
             bindings = <&kp>, <&tap_4>;
 
             #binding-cells = <2>;
@@ -286,9 +286,9 @@
             flavor = "tap-preferred";
         };
 
-        six_mod: six_mod {
+        five_mod: five_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "SIX_MOD";
+            label = "FIVE_MOD";
             bindings = <&kp>, <&tap_5>;
 
             #binding-cells = <2>;
@@ -374,10 +374,10 @@
 
         gam {
             bindings = <
-&none  &three_mod N4 0  &one_mod Q N1  &kp W    &two_mod E N2  &six_mod N5 0    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
-&none  &kp LSHFT        &kp A          &kp S    &kp D          &kp F            &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
-&none  &kp K            &kp Z          &kp X    &kp C          &kp V            &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                                       &kp TAB  &kp LCTRL      &kp SPACE        &kp RET    &kp N0  &tog 6
+&none  &four_mod N4 0  &one_mod Q N1  &kp W    &two_mod E N2  &five_mod N5 0    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &kp LSHFT       &kp A          &kp S    &kp D          &kp F             &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &kp K           &kp Z          &kp X    &kp C          &kp V             &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
+                                      &kp TAB  &kp LCTRL      &kp SPACE         &kp RET    &kp N0  &tog 6
             >;
         };
     };
