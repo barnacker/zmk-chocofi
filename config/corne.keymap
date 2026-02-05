@@ -374,7 +374,7 @@
 
         gam {
             bindings = <
-&none  &four_mod N4 0  &one_mod Q N1  &kp W    &two_mod E N2  &five_mod N5 0    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &four_mod N3 0  &one_mod Q N1  &kp W    &two_mod E N2  &five_mod N6 0    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
 &none  &kp LSHFT       &kp A          &kp S    &kp D          &kp F             &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &kp K           &kp Z          &kp X    &kp C          &kp V             &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
                                       &kp TAB  &kp LCTRL      &kp SPACE         &kp RET    &kp N0  &tog 6
