@@ -301,6 +301,8 @@
             label = "TOOLS_LEFT";
             #binding-cells = <0>;
             bindings = <&kp N3>, <&kp N4>;
+
+            tapping-term-ms = <230>;
         };
 
         tools_right: tools_right {
