@@ -89,7 +89,7 @@
         game_esc {
             bindings = <&kp ESC>;
             key-positions = <1 2>;
-            layers = <6>;
+            layers = <5>;
         };
     };
 
@@ -320,10 +320,10 @@
 
         baz {
             bindings = <
-&none  &kp F       &kp B       &kp K        &kp L        &kp J                 &kp EQUAL  &kp W          &kp SQT      &kp SLASH   &kp PERIOD  &none
-&none  &hm LGUI S  &hm LALT N  &hm LCTRL T  &hm LSHFT H  &kp V                 &kp G      &hm RSHFT C    &hm RCTRL A  &hm RALT E  &hm RGUI I  &none
-&none  &kp X       &kp P       &kp D        &kp M        &lingerq Q 0          &kp Z      &kp Y          &kp O        &kp U       &kp COMMA   &none
-                               &mo 2        &thmo 5 R    &bspc_del DEL BSPC    &kp RET    &thmo 3 SPACE  &mo 1
+&none  &kp F       &kp B       &kp K        &kp L        &kp J           &kp EQUAL  &kp W          &kp SQT      &kp SLASH   &kp PERIOD  &none
+&none  &hm LGUI S  &hm LALT N  &hm LCTRL T  &hm LSHFT H  &kp V           &kp G      &hm RSHFT C    &hm RCTRL A  &hm RALT E  &hm RGUI I  &none
+&none  &kp X       &kp P       &kp D        &kp M        &lingerq Q 0    &kp Z      &kp Y          &kp O        &kp U       &kp COMMA   &none
+                               &mo 2        &thmo 4 R    &kp BSPC        &kp RET    &thmo 1 SPACE  &kp DEL
             >;
         };
 
@@ -332,7 +332,7 @@
 &none  &none     &none     &none     &none     &none        &kp TILDE  &kp GRAVE  &kp DQT   &kp BSLH   &kp COLON      &none
 &none  &kp LBRC  &kp LPAR  &kp RPAR  &kp RBRC  &kp UNDER    &kp PIPE   &kp QMARK  &kp EXCL  &kp EQUAL  &kp AMPS       &none
 &none  &kp LBKT  &kp LT    &kp GT    &kp RBKT  &kp CARET    &kp DLLR   &kp HASH   &kp AT    &kp PRCNT  &kp SEMICOLON  &none
-                           &tog 6    &trans    &trans       &trans     &trans     &trans
+                           &tog 5    &trans    &trans       &trans     &trans     &trans
             >;
         };
 
@@ -341,16 +341,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS   &none
 &trans  &trans  &trans  &trans  &trans  &trans    &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS  &none
 &trans  &trans  &trans  &trans  &trans  &trans    &kp DOT    &kp N1  &kp N2  &kp N3  &kp EQUAL  &none
-                        &trans  &trans  &trans    &kp TAB    &kp N0  &mo 4
-            >;
-        };
-
-        i3w {
-            bindings = <
-&none  &kp LG(Q)  &none         &kp LG(UP)    &none          &none     &none   &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &none      &none
-&none  &kp LSHFT  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &none     &none   &kp LG(N4)  &kp LG(N5)  &kp LG(N6)  &kp RSHFT  &none
-&none  &kp LCTRL  &none         &kp LG(S)     &none          &none     &none   &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp RCTRL  &none
-                                &trans        &trans         &trans    &trans  &trans      &trans
+                        &trans  &trans  &trans    &kp TAB    &kp N0  &mo 3
             >;
         };
 
@@ -377,7 +368,7 @@
 &none  &kp P      &one_mod Q N1  &kp W      &two_mod E N2  &kp X    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
 &none  &kp LSHFT  &kp A          &kp S      &kp D          &kp F    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &kp K      &four_mod Z 0  &kp TAB    &five_mod C 0  &kp V    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                                 &kp LCTRL  &kp SPACE      &kp R    &kp RET    &kp N0  &tog 6
+                                 &kp LCTRL  &kp SPACE      &kp R    &kp RET    &kp N0  &tog 5
             >;
         };
     };
