@@ -194,20 +194,20 @@
             wait-ms = <0>;
         };
 
-        tap_8: tap_8 {
+        tap_7: tap_7 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N8>;
-            label = "TAP_8";
+            bindings = <&kp N7>;
+            label = "TAP_7";
             tap-ms = <30>;
             wait-ms = <0>;
         };
 
-        tap_9: tap_9 {
+        tap_0: tap_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N9>;
-            label = "TAP_9";
+            bindings = <&kp N0>;
+            label = "TAP_0";
             tap-ms = <30>;
             wait-ms = <0>;
         };
@@ -330,20 +330,20 @@
             bindings = <&kp N5>, <&kp N6>;
         };
 
-        eight_mod: eight_mod {
+        seven_mod: seven_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "EIGHT_MOD";
-            bindings = <&kp>, <&tap_8>;
+            label = "SEVEN_MOD";
+            bindings = <&kp>, <&tap_7>;
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
             flavor = "tap-preferred";
         };
 
-        nine_mod: nine_mod {
+        zero_mod: zero_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "NINE_MOD";
-            bindings = <&kp>, <&tap_9>;
+            label = "ZERO_MOD";
+            bindings = <&kp>, <&tap_0>;
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
@@ -353,7 +353,7 @@
         new_behavior: new_behavior {
             compatible = "zmk,behavior-hold-tap";
             label = "NEW_BEHAVIOR";
-            bindings = <&kp>, <&tap_9>;
+            bindings = <&kp>, <&tap_0>;
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
@@ -413,7 +413,7 @@
 
         gam {
             bindings = <
-&none  &eight_mod N7 0  &one_mod Q N1  &kp W      &two_mod E N2  &nine_mod N0 0    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &seven_mod N8 0  &one_mod Q N1  &kp W      &two_mod E N2  &zero_mod N9 0    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
 &none  &kp LSHFT        &kp A          &kp S      &kp D          &kp F             &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &kp N3           &four_mod Z 0  &kp TAB    &five_mod C 0  &kp N6            &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
                                        &kp LCTRL  &kp SPACE      &kp I             &kp RET    &kp N0  &tog 5
