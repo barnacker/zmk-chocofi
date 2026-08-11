@@ -415,8 +415,8 @@
             bindings = <
 &none  &four_mod Z 0  &one_mod Q N1    &kp W    &two_mod E N2   &five_mod N6 0    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
 &none  &kp LSHFT      &kp A            &kp S    &kp D           &kp V             &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
-&none  &kp LCTRL      &seven_mod N8 0  &kp TAB  &zero_mod N9 0  &kp C             &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                                       &kp G    &kp SPACE       &kp I             &kp RET    &kp N0  &tog 5
+&none  &kp LCTRL      &seven_mod N8 0  &kp G    &zero_mod N9 0  &kp C             &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
+                                       &kp TAB  &kp SPACE       &kp I             &kp RET    &kp N0  &tog 5
             >;
         };
     };
