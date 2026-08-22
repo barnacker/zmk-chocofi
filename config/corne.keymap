@@ -176,19 +176,19 @@
             wait-ms = <0>;
         };
 
-        tap_4: tap_3 {
+        tap_3: tap_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N4>;
+            bindings = <&kp N3>;
             label = "TAP_3";
             tap-ms = <30>;
             wait-ms = <0>;
         };
 
-        tap_5: tap_6 {
+        tap_6: tap_6 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N5>;
+            bindings = <&kp N6>;
             label = "TAP_6";
             tap-ms = <30>;
             wait-ms = <0>;
@@ -294,20 +294,20 @@
             flavor = "tap-preferred";
         };
 
-        four_mod: four_mod {
+        three_mod: three_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "FOUR_MOD";
-            bindings = <&kp>, <&tap_4>;
+            label = "THREE_MOD";
+            bindings = <&kp>, <&tap_3>;
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
             flavor = "tap-preferred";
         };
 
-        five_mod: five_mod {
+        six_mod: six_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "FIVE_MOD";
-            bindings = <&kp>, <&tap_5>;
+            label = "SIX_MOD";
+            bindings = <&kp>, <&tap_6>;
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
@@ -413,10 +413,10 @@
 
         gam {
             bindings = <
-&none  &four_mod Z 0  &one_mod Q N1    &kp W    &two_mod E N2   &five_mod N6 0    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
-&none  &kp LSHFT      &kp A            &kp S    &kp D           &kp V             &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
-&none  &kp LCTRL      &seven_mod N8 0  &kp G    &zero_mod N9 0  &kp C             &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                                       &kp TAB  &kp SPACE       &kp I             &kp RET    &kp N0  &tog 5
+&none  &three_mod N4 0  &one_mod Q N1    &kp W    &two_mod E N2   &six_mod N5 0    &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &kp LSHFT        &kp A            &kp S    &kp D           &kp V            &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &kp LCTRL        &seven_mod N8 0  &kp G    &zero_mod N9 0  &kp C            &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
+                                         &kp TAB  &kp SPACE       &kp I            &kp RET    &kp N0  &tog 5
             >;
         };
     };
