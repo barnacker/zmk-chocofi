@@ -304,7 +304,7 @@
             bindings = <&kp>, <&tap_0>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -314,7 +314,7 @@
             bindings = <&kp>, <&tap_7>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -324,7 +324,7 @@
             bindings = <&kp>, <&tap_5>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -334,7 +334,7 @@
             bindings = <&kp>, <&tap_6>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -344,7 +344,7 @@
             bindings = <&kp>, <&tap_r>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -354,7 +354,7 @@
             bindings = <&kp>, <&tap_4>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -364,7 +364,7 @@
             bindings = <&kp>, <&tap_3>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -374,7 +374,7 @@
             bindings = <&kp>, <&tap_7>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -384,7 +384,7 @@
             bindings = <&kp>, <&tap_7>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
     };
