@@ -412,7 +412,7 @@
             bindings = <&kp>, <&tap_x>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <400>;
             flavor = "tap-preferred";
         };
 
@@ -422,7 +422,7 @@
             bindings = <&kp>, <&tap_tab>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <500>;
+            tapping-term-ms = <400>;
             flavor = "tap-preferred";
         };
     };
