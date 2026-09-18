@@ -272,6 +272,15 @@
             tap-ms = <30>;
             wait-ms = <0>;
         };
+
+        tap_q: tap_q {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Q>;
+            label = "TAP_Q";
+            tap-ms = <30>;
+            wait-ms = <0>;
+        };
     };
 
     behaviors {
@@ -444,6 +453,16 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        q_mod: q_mod {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Q_MOD";
+            bindings = <&kp>, <&tap_q>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     keymap {
@@ -498,7 +517,7 @@
 
         gam {
             bindings = <
-&none  &three_mod TAB 0   &e_mod Q 0      &kp W       &kp R          &six_mod I 0     &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &three_mod I 0     &q_mod TAB 0    &kp W       &r_mod E 0     &six_mod T 0     &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
 &none  &kp LSHFT          &kp A           &kp S       &kp D          &kp F            &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &seven_mod LALT 0  &eight_mod Z 0  &x_mod G 0  &nine_mod C 0  &zero_mod V 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
                                           &kp LCTRL   &kp SPACE      &kp B            &kp RET    &kp N0  &tog 5
