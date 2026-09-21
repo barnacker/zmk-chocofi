@@ -406,10 +406,10 @@
         three_mod: three_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "THREE_MOD";
-            bindings = <&kp>, <&map_insp>;
+            bindings = <&kp>, <&three_insp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             flavor = "tap-preferred";
         };
 
@@ -483,11 +483,11 @@
             flavor = "tap-preferred";
         };
 
-        map_insp: map_insp {
+        three_insp: three_insp {
             compatible = "zmk,behavior-tap-dance";
-            label = "MAP_INSP";
+            label = "THREE_INSP";
             #binding-cells = <0>;
-            bindings = <&kp M>, <&kp I>;
+            bindings = <&kp N3>, <&kp I>;
         };
     };
 
@@ -546,7 +546,7 @@
 &none  &three_mod TAB 0  &four_mod Q 0      &kp W       &five_mod E 0  &kp R            &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
 &none  &kp LSHFT         &kp A              &kp S       &kp D          &six_mod L 0     &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &seven_mod Z 0    &eight_mod LALT 0  &x_mod Y 0  &nine_mod C 0  &zero_mod V 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                                            &kp LCTRL   &kp SPACE      &map_insp        &kp RET    &kp N0  &tog 5
+                                            &kp LCTRL   &kp SPACE      &kp B            &kp RET    &kp N0  &tog 5
             >;
         };
     };
