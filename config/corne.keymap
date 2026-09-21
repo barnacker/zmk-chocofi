@@ -488,6 +488,8 @@
             label = "THREE_INSP";
             #binding-cells = <0>;
             bindings = <&kp N3>, <&kp I>;
+
+            tapping-term-ms = <150>;
         };
     };
 
