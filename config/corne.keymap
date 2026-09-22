@@ -499,6 +499,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
+            flavor = "tap-preferred";
         };
 
         t3_m_tab: t3_m_tab {
@@ -563,8 +564,8 @@
 
         gam {
             bindings = <
-&none  &t3_m_tab       &four_mod Q 0      &kp W       &five_mod E 0  &kp R            &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
-&none  &kp LSHFT       &kp A              &kp S       &kp D          &six_mod L 0     &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &t3_m_tab       &four_mod Q 0      &kp W       &six_mod E 0   &kp R            &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &kp LSHFT       &kp A              &kp S       &kp D          &five_mod L 0    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &seven_mod Z 0  &eight_mod LALT 0  &x_mod Y 0  &nine_mod C 0  &zero_mod V 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
                                           &kp LCTRL   &kp SPACE      &kp B            &kp RET    &kp N0  &tog 5
             >;
