@@ -290,6 +290,15 @@
             tap-ms = <30>;
             wait-ms = <0>;
         };
+
+        tap_m: tap_m {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M>;
+            label = "TAP_M";
+            tap-ms = <30>;
+            wait-ms = <0>;
+        };
     };
 
     behaviors {
@@ -502,20 +511,40 @@
             flavor = "hold-preferred";
         };
 
-        t3_m_tab: t3_m_tab {
+        mapinv3: mapinv3 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MAPINV3";
+            bindings = <&kp>, <&tap_3>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "hold-preferred";
+        };
+
+        t3mtab: t3mtab {
             compatible = "zmk,behavior-tap-dance";
-            label = "T3_M_TAB";
+            label = "T3MTAB";
             #binding-cells = <0>;
-            bindings = <&holdtap_n TAB N3>, <&kp M>;
+            bindings = <&mapinv3 TAB 0>, <&tap_m>;
 
             tapping-term-ms = <180>;
         };
 
-        t_rir: t_rir {
+        reload_insp: reload_insp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "RELOAD_INSP";
+            bindings = <&kp>, <&tap_r>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "hold-preferred";
+        };
+
+        trir: trir {
             compatible = "zmk,behavior-tap-dance";
-            label = "T_RIR";
+            label = "TRIR";
             #binding-cells = <0>;
-            bindings = <&holdtap_n R R>, <&kp I>;
+            bindings = <&reload_insp R 0>, <&tap_i>;
 
             tapping-term-ms = <180>;
         };
@@ -573,7 +602,7 @@
 
         gam {
             bindings = <
-&none  &t3_m_tab       &four_mod Q 0      &kp W       &five_mod E 0  &t_rir           &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &t3mtab         &four_mod Q 0      &kp W       &five_mod E 0  &trir            &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
 &none  &kp LSHFT       &kp A              &kp S       &kp D          &six_mod L 0     &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &seven_mod Z 0  &eight_mod LALT 0  &x_mod Y 0  &nine_mod C 0  &zero_mod V 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
                                           &kp LCTRL   &kp SPACE      &kp B            &kp RET    &kp N0  &tog 5
