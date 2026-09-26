@@ -602,9 +602,9 @@
 
         gam {
             bindings = <
-&none  &t3mtab         &four_mod Q 0      &kp W       &five_mod E 0  &trir            &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
-&none  &kp LSHFT       &kp A              &kp S       &kp D          &six_mod L 0     &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
-&none  &seven_mod Z 0  &eight_mod LALT 0  &x_mod Y 0  &nine_mod C 0  &zero_mod V 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
+&none  &t3mtab            &four_mod Q 0   &kp W       &five_mod E 0  &trir            &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &kp LSHFT          &kp A           &kp S       &kp D          &six_mod L 0     &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &seven_mod LALT 0  &eight_mod Z 0  &x_mod Y 0  &nine_mod C 0  &zero_mod V 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
                                           &kp LCTRL   &kp SPACE      &kp B            &kp RET    &kp N0  &tog 5
             >;
         };
