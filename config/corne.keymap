@@ -527,7 +527,7 @@
             #binding-cells = <0>;
             bindings = <&mapinv3 TAB 0>, <&tap_m>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <220>;
         };
 
         reload_insp: reload_insp {
@@ -546,7 +546,7 @@
             #binding-cells = <0>;
             bindings = <&reload_insp R 0>, <&tap_i>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <220>;
         };
     };
 
