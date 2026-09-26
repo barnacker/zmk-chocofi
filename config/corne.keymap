@@ -517,7 +517,7 @@
             bindings = <&kp>, <&tap_3>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <230>;
             flavor = "hold-preferred";
         };
 
@@ -527,7 +527,7 @@
             #binding-cells = <0>;
             bindings = <&mapinv3 TAB 0>, <&tap_m>;
 
-            tapping-term-ms = <220>;
+            tapping-term-ms = <200>;
         };
 
         reload_insp: reload_insp {
@@ -536,7 +536,7 @@
             bindings = <&kp>, <&tap_r>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <230>;
             flavor = "hold-preferred";
         };
 
@@ -546,7 +546,7 @@
             #binding-cells = <0>;
             bindings = <&reload_insp R 0>, <&tap_i>;
 
-            tapping-term-ms = <220>;
+            tapping-term-ms = <200>;
         };
     };
 
