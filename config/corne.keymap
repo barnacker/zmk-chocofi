@@ -421,7 +421,7 @@
         mapinv3: mapinv3 {
             compatible = "zmk,behavior-hold-tap";
             label = "MAPINV3";
-            bindings = <&kp>, <&tap_3>;
+            bindings = <&kp>, <&tap_tab>;
 
             #binding-cells = <2>;
             tapping-term-ms = <230>;
@@ -432,7 +432,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "T3MTAB";
             #binding-cells = <0>;
-            bindings = <&mapinv3 TAB 0>, <&tap_m>;
+            bindings = <&mapinv3 M 0>, <&tap_3>;
 
             tapping-term-ms = <220>;
         };
@@ -559,7 +559,7 @@
 
         gam {
             bindings = <
-&none  &t3mtab            &four_mod Q 0  &kp W       &five_mod E 0  &trir          &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &t3mtab            &four_mod Q 0  &kp W       &five_mod E 0  &kp R          &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
 &none  &run_walk LSHFT 0  &kp A          &kp S       &kp D          &l_mod N6 0    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &seven_mod LALT 0  &z_mod N8 0    &x_mod Y 0  &c_mod N9 0    &v_mod N0 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
                                          &kp N       &kp SPACE      &kp B          &kp RET    &kp N0  &tog 5
