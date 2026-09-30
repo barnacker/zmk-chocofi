@@ -562,7 +562,7 @@
 &none  &t3mtab            &four_mod Q 0  &kp W       &five_mod E 0  &trir          &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
 &none  &run_walk LSHFT 0  &kp A          &kp S       &kp D          &l_mod N6 0    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
 &none  &seven_mod LALT 0  &z_mod N8 0    &x_mod Y 0  &c_mod N9 0    &v_mod N0 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                                         &kp H       &kp SPACE      &kp B          &kp RET    &kp N0  &tog 5
+                                         &kp N       &kp SPACE      &kp B          &kp RET    &kp N0  &tog 5
             >;
         };
     };
