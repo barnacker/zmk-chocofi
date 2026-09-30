@@ -308,6 +308,24 @@
             tap-ms = <30>;
             wait-ms = <0>;
         };
+
+        tap_l: tap_6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L>;
+            label = "TAP_6";
+            tap-ms = <30>;
+            wait-ms = <0>;
+        };
+
+        tap_v: tap_v {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V>;
+            label = "TAP_V";
+            tap-ms = <30>;
+            wait-ms = <0>;
+        };
     };
 
     behaviors {
@@ -394,7 +412,7 @@
         six_mod: six_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "SIX_MOD";
-            bindings = <&kp>, <&tap_6>;
+            bindings = <&kp>, <&tap_l>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -567,6 +585,26 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        l_mod: l_mod {
+            compatible = "zmk,behavior-hold-tap";
+            label = "L_MOD";
+            bindings = <&kp>, <&tap_l>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        v_mod: v_mod {
+            compatible = "zmk,behavior-hold-tap";
+            label = "V_MOD";
+            bindings = <&kp>, <&tap_l>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     keymap {
@@ -621,10 +659,10 @@
 
         gam {
             bindings = <
-&none  &t3mtab            &four_mod Q 0   &kp W       &five_mod E 0  &trir            &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
-&none  &run_walk LSHFT 0  &kp A           &kp S       &kp D          &six_mod L 0     &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
-&none  &seven_mod LALT 0  &eight_mod Z 0  &x_mod Y 0  &nine_mod C 0  &zero_mod V 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
-                                          &kp LCTRL   &kp SPACE      &kp B            &kp RET    &kp N0  &tog 5
+&none  &t3mtab            &four_mod Q 0   &kp W       &five_mod E 0  &trir          &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &none
+&none  &run_walk LSHFT 0  &kp A           &kp S       &kp D          &l_mod N6 0    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &none
+&none  &seven_mod LALT 0  &eight_mod Z 0  &x_mod Y 0  &nine_mod C 0  &v_mod N0 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &none
+                                          &kp LCTRL   &kp SPACE      &kp B          &kp RET    &kp N0  &tog 5
             >;
         };
     };
