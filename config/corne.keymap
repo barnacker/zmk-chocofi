@@ -185,15 +185,6 @@
             wait-ms = <0>;
         };
 
-        tap_6: tap_6 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp N6>;
-            label = "TAP_6";
-            tap-ms = <30>;
-            wait-ms = <0>;
-        };
-
         tap_7: tap_7 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -599,7 +590,7 @@
         v_mod: v_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "V_MOD";
-            bindings = <&kp>, <&tap_l>;
+            bindings = <&kp>, <&v_mod>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
