@@ -552,7 +552,7 @@
 &trans  &trans  &trans    &trans     &trans      &trans    &trans  &trans        &kp LG(UP)    &trans         &trans  &trans
 &trans  &trans  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans    &trans  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &trans  &trans
 &trans  &trans  &trans    &trans     &trans      &trans    &trans  &trans        &trans        &trans         &trans  &trans
-                          &trans     &trans      &trans    &trans  &trans        &trans
+                          &mo 7      &trans      &trans    &trans  &trans        &trans
             >;
         };
 
