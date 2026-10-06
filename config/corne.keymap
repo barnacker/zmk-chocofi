@@ -537,7 +537,7 @@
         b_mod: b_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "B_MOD";
-            bindings = <&kp>, <&tap_m>;
+            bindings = <&kp>, <&tap_b>;
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
