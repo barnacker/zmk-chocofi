@@ -384,7 +384,7 @@
             bindings = <&kp>, <&tap_7>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -394,7 +394,7 @@
             bindings = <&kp>, <&tap_5>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -404,7 +404,7 @@
             bindings = <&kp>, <&tap_4>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -414,36 +414,7 @@
             bindings = <&kp>, <&tap_u>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            flavor = "tap-preferred";
-        };
-
-        mapinv3: mapinv3 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MAPINV3";
-            bindings = <&kp>, <&tap_tab>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <230>;
-            flavor = "hold-preferred";
-        };
-
-        t3mtab: t3mtab {
-            compatible = "zmk,behavior-tap-dance";
-            label = "T3MTAB";
-            #binding-cells = <0>;
-            bindings = <&mapinv3 M 0>, <&tap_k>;
-
-            tapping-term-ms = <220>;
-        };
-
-        run_walk: run_walk {
-            compatible = "zmk,behavior-hold-tap";
-            label = "RUN_WALK";
-            bindings = <&kp>, <&caps>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -453,7 +424,7 @@
             bindings = <&kp>, <&tap_l>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -463,7 +434,7 @@
             bindings = <&kp>, <&tap_v>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -473,7 +444,7 @@
             bindings = <&kp>, <&tap_9>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -483,7 +454,7 @@
             bindings = <&kp>, <&tap_8>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -493,36 +464,7 @@
             bindings = <&kp>, <&tap_k>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            flavor = "tap-preferred";
-        };
-
-        altInv_3: altInv_3 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "ALTINV_3";
-            bindings = <&kp>, <&tap_tab>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <230>;
-            flavor = "hold-preferred";
-        };
-
-        tapInv3: tapInv3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPINV3";
-            #binding-cells = <0>;
-            bindings = <&altInv_3 LALT 0>, <&tap_k>;
-
-            tapping-term-ms = <220>;
-        };
-
-        b_mod: b_mod {
-            compatible = "zmk,behavior-hold-tap";
-            label = "B_MOD";
-            bindings = <&kp>, <&tap_b>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
     };
