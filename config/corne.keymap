@@ -318,10 +318,10 @@
             wait-ms = <0>;
         };
 
-        tap_u: tap_u {
+        tap_h: tap_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp U>;
+            bindings = <&kp H>;
             label = "TAP_U";
             tap-ms = <30>;
             wait-ms = <0>;
@@ -408,10 +408,10 @@
             flavor = "tap-preferred";
         };
 
-        u_mod: u_mod {
+        h_mod: h_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "U_MOD";
-            bindings = <&kp>, <&tap_u>;
+            label = "H_MOD";
+            bindings = <&kp>, <&tap_h>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -523,7 +523,7 @@
             bindings = <
 &trans  &k_mod TAB 0       &four_mod Q 0   &kp W       &five_mod E 0  &kp R          &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp RGUI  &trans
 &trans  &kp LSHFT          &kp A           &kp S       &kp D          &l_mod N6 0    &kp Y      &kp N4  &kp N5  &kp N6  &kp N     &trans
-&trans  &seven_mod LALT 0  &eight_mod Z 0  &u_mod X 0  &nine_mod C 0  &v_mod N0 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &trans
+&trans  &seven_mod LALT 0  &eight_mod Z 0  &h_mod X 0  &nine_mod C 0  &v_mod N0 0    &kp BSPC   &kp N1  &kp N2  &kp N3  &kp DOT   &trans
                                            &kp LCTRL   &kp SPACE      &kp M          &kp RET    &kp N0  &tog 5
             >;
         };
